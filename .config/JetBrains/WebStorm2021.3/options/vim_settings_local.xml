@@ -1,0 +1,197 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry encoding="base64">bWV0aG9k</entry>
+        <entry encoding="base64">anNEb2M=</entry>
+        <entry encoding="base64">dGFncw==</entry>
+        <entry encoding="base64">Pg==</entry>
+        <entry encoding="base64">UGFyYW0=</entry>
+        <entry encoding="base64">cGFyYW1ldA==</entry>
+        <entry encoding="base64">Kg==</entry>
+        <entry encoding="base64">Zw==</entry>
+        <entry encoding="base64">KA==</entry>
+      </history-search>
+      <history-cmd>
+        <entry encoding="base64">Y2xvc2U=</entry>
+        <entry encoding="base64">Y2xvc2Vh</entry>
+        <entry encoding="base64">Y2xvc2VhbGw=</entry>
+        <entry encoding="base64">Y2xv</entry>
+        <entry encoding="base64">c2V0IHJlbGF0aXZlbnVtYmVy</entry>
+        <entry encoding="base64">c2V0IG51bWJlcg==</entry>
+        <entry encoding="base64">V3E=</entry>
+        <entry encoding="base64">d3E=</entry>
+        <entry encoding="base64">ZWRpdCBjb250cm9sbGVycy50cw==</entry>
+        <entry encoding="base64">bWFwIDxzLWM+ICIreWl3</entry>
+        <entry encoding="base64">dw==</entry>
+        <entry encoding="base64">dnNwbGl0</entry>
+        <entry encoding="base64">c2V0IG51bWJlciByZWxhdGl2ZW51bWJlcg==</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/test_apps/complex/controllers.ts" timestamp="1646665036496">
+        <mark key="[" line="0" column="82" />
+        <mark key="]" line="0" column="76" />
+        <mark key="^" line="0" column="76" />
+        <mark key="." line="0" column="75" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1646759274019">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/Projects/havas-web/havas-express/src/di/container.ts" timestamp="1646659977479">
+        <mark key="[" line="14" column="13" />
+        <mark key="]" line="14" column="30" />
+      </file>
+      <file name="/fragment.js" timestamp="1646857059229">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/test_app/data.ts" timestamp="1646661420256">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/app.ts" timestamp="1646665076062">
+        <mark key="'" line="10" column="8" />
+        <mark key="[" line="10" column="89" />
+        <mark key="]" line="10" column="89" />
+        <mark key="^" line="10" column="89" />
+        <mark key="." line="10" column="88" />
+      </file>
+      <file name="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/src/type_extractor.ts" timestamp="1646857494528">
+        <mark key="'" line="8" column="2" />
+        <mark key="[" line="153" column="6" />
+        <mark key="]" line="153" column="6" />
+        <mark key="^" line="153" column="11" />
+        <mark key="." line="153" column="6" />
+      </file>
+      <file name="$USER_HOME$/Documents/Projects/havas-web/havas-express/src/di/controller_tree.ts" timestamp="1646661565391">
+        <mark key="[" line="53" column="4" />
+        <mark key="]" line="55" column="7" />
+        <mark key="^" line="55" column="7" />
+        <mark key="." line="55" column="6" />
+      </file>
+      <file name="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/test_apps/simple/application.ts" timestamp="1646843879497">
+        <mark key="[" line="31" column="3" />
+        <mark key="]" line="31" column="3" />
+        <mark key="^" line="31" column="14" />
+        <mark key="." line="31" column="3" />
+      </file>
+      <file name="/JavaScript Console" timestamp="1646857038758">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="9" />
+        <mark key="^" line="0" column="9" />
+        <mark key="." line="0" column="8" />
+      </file>
+      <file name="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/src/create_document.ts" timestamp="1646665229711">
+        <mark key="[" line="24" column="76" />
+        <mark key="]" line="24" column="76" />
+        <mark key="^" line="24" column="79" />
+        <mark key="." line="24" column="76" />
+      </file>
+      <file name="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/src/commands/generate.ts" timestamp="1646665634107">
+        <mark key="[" line="53" column="47" />
+        <mark key="]" line="53" column="48" />
+        <mark key="^" line="53" column="48" />
+        <mark key="." line="53" column="47" />
+      </file>
+      <file name="$USER_HOME$/Documents/Projects/havas-web/havas-express/src/decorators/parameter_decorators.ts" timestamp="1646667434077">
+        <mark key="[" line="18" column="44" />
+        <mark key="]" line="18" column="44" />
+        <mark key="." line="18" column="44" />
+      </file>
+      <file name="$USER_HOME$/.ideavimrc" timestamp="1646656805067">
+        <mark key="[" line="18" column="27" />
+        <mark key="]" line="18" column="55" />
+        <mark key="." line="18" column="27" />
+      </file>
+      <file name="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/src/interfaces/cls_related.ts" timestamp="1646857535915">
+        <mark key="[" line="20" column="55" />
+        <mark key="]" line="20" column="55" />
+        <mark key="^" line="20" column="57" />
+        <mark key="." line="20" column="55" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="32" column="22" filename="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/src/commands/generate.ts" />
+      <jump line="40" column="52" filename="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/src/commands/generate.ts" />
+      <jump line="61" column="3" filename="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/src/commands/generate.ts" />
+      <jump line="10" column="8" filename="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/app.ts" />
+      <jump line="75" column="0" filename="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/src/commands/generate.ts" />
+      <jump line="32" column="0" filename="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/src/create_document.ts" />
+      <jump line="27" column="18" filename="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/test_apps/simple/application.ts" />
+      <jump line="193" column="22" filename="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/src/type_extractor.ts" />
+      <jump line="83" column="10" filename="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/src/type_extractor.ts" />
+      <jump line="98" column="2" filename="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/src/type_extractor.ts" />
+      <jump line="2" column="25" filename="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/src/type_extractor.ts" />
+      <jump line="185" column="8" filename="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/src/type_extractor.ts" />
+      <jump line="88" column="6" filename="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/src/type_extractor.ts" />
+      <jump line="149" column="8" filename="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/src/type_extractor.ts" />
+      <jump line="177" column="49" filename="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/src/type_extractor.ts" />
+      <jump line="57" column="47" filename="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/src/interfaces/cls_related.ts" />
+      <jump line="8" column="2" filename="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter/src/type_extractor.ts" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="4">
+        <text encoding="base64">aXdEb2M=</text>
+      </register>
+      <register name="+" type="4">
+        <text encoding="base64">UmVnaXN0cmF0aW9uUmVxZXN0</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">aXdEb2M=</text>
+      </register>
+      <register name="." type="4">
+        <text encoding="base64">aXc=</text>
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">KA==</text>
+      </register>
+      <register name="0" type="4">
+        <text encoding="base64">UmF3VGFncw==</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIHJldHVybiB7CiAgICAgIGRlc2NyaSwKICAgICAgdHNUYWdzLAogICAgfTsK</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">KiAgICAgICAgICA=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ZXhwb3J0IGludGVyZmFjZSBQYXJhbWV0ZXJEZXNjcmlwdGlvbiBleHRlbmRzIEpzRG9jYWJsZTxPQVBJLlBhcmFtZXRlck9iamVjdD4gewo=</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">IGV4dGVuZHMgSnNEb2M=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">CmludGVyZmFjZSBNZXRob2REb2MgZXh0ZW5kcyBKc0RvYyB7CiAgc3VtbWFyeTogc3RyaW5nOwp9Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICBwcml2YXRlIGdldEpzRG9jKHN5bWJvbDogdHMuU3ltYm9sKTogSnNEb2Mgewo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIHJldHVybiB7Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">CiAgICBjb25zdCBwcmludGVyID0gZ2V0UHJpbnRlcihvcHRpb25zLmZpbGVuYW1lLCBvcHRpb25zLmV4cG9ydFR5cGUpOwogICAgYXdhaXQgcHJpbnRlci5wcmludChleHRlbmRlZFNjaGVtYSk7Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name=":" type="4">
+        <text encoding="base64">c2V0IG51bWJlciByZWxhdGl2ZW51bWJlcg==</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search encoding="base64">KA==</last-search>
+      <last-pattern encoding="base64">KA==</last-pattern>
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+</application>

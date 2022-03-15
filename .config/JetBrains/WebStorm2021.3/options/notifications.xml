@@ -1,0 +1,5 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="JavaScript Debugger Console URL Starter" displayType="NONE" shouldLog="false" />
+  </component>
+</application>
