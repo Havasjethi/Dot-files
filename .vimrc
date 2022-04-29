@@ -22,6 +22,10 @@ set number
 set relativenumber
 set smartindent
 set cursorline
+set linebreak
+
+" This might be wrong:
+set wrap
 
 
 filetype on
@@ -47,7 +51,7 @@ set laststatus=2
 
 " TODO :: Add Vim => System write
 " Allow copy and paste from system clipboard
-set clipboard=unnamed
+set clipboard+=unnamedplus
 
 " Formatting
 set nowrap
@@ -59,7 +63,7 @@ syntax enable
 
 
 " --------------------- "
-"     Key bindings 
+"     Key gs 
 " --------------------- "
 
 " <ESC>[D  === Ctrl + Left
@@ -101,10 +105,13 @@ nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-l> <c-w>l
 
-
+" noremap <ALT-1> 1gt
+" noremap <ALT-2> 2gt
+" noremap <ALT-3> 3gt
 
 " CoC extensions
 let g:coc_global_extensions = ['coc-solargraph', 'coc-tsserver', 'coc-json']
+
 
 " Add CoC Prettier if prettier is installed
 if isdirectory('./node_modules') && isdirectory('./node_modules/prettier')
