@@ -267,3 +267,5 @@ let g:vim_vue_plugin_config = {
       \'debug': 0,
       \}
 
+nnoremap <leader>cc :call NERDComment('x', 'toggle')<CR>
+
