@@ -7,7 +7,22 @@
             <ProjectPluginTracker />
           </value>
         </entry>
+        <entry key="1wlj3FyUQ2BcAKBajVO5EIV7whF">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
         <entry key="26AEPSnVaC8D1P8knXOuAex2odM">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="26X1L5cPbSQmbdsjd82PkxGrqr3">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="28cuxRMHOW0rv8uQGequ0DU5TLZ">
           <value>
             <ProjectPluginTracker />
           </value>
@@ -134,6 +149,7 @@
     <property name="BEFORE.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="true" />
     <property name="BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR" value="true" />
     <property name="BuildView.Splitter.Proportion" value="0.26021266" />
+    <property name="ColorChooser.RecentColors" value="255-22-22-255,,,119-119-119-255,,,208-208-208-255,,,162-162-162-255,,,255-123-211-255,,,255-41-186-255,,,255-0-174-255,,,17-0-0-255,,,255-201-0-255,,,159-255-231-255,,,212-255-245-255,,,255-212-212-255,,,255-183-183-255,,,255-140-140-255,,,99-215-170-255,,,255-253-115-255,,,225-115-255-255,,,218-56-255-255,,,175-184-55-255,,,255-74-74-255" />
     <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.6134565" />
     <property name="CommitToolWindow.COMMIT_SPLITTER_PROPORTION" value="0.5856" />
     <property name="ExpandBeforeRunStepsPanel" value="false" />
@@ -143,16 +159,16 @@
     <property name="FileTemplates.SelectedTemplate" value="HTML File" />
     <property name="FindSplitterProportion" value="0.0" />
     <property name="GeneralSettings.initiallyConfigured" value="true" />
-    <property name="InstalledPluginsSearchHistory" value="vim-multiple-cursors&#10;vim&#10;vi&#10;prett&#10;car" />
+    <property name="InstalledPluginsSearchHistory" value="TODO&#10;theme&#10;vim-multiple-cursors&#10;vim&#10;vi" />
     <property name="JestJavaScriptTestRunner.Splitter.Proportion" value="0.1708126" />
     <property name="JestJavaScriptTestRunnerSupport.hideIgnoredTests" value="true" />
     <property name="JestJavaScriptTestRunnerSupport.hidePassedTests" value="false" />
     <property name="JestJavaScriptTestRunnerSupport.scrollToSource" value="true" />
     <property name="JestJavaScriptTestRunnerSupport.selectFirtsDefect" value="true" />
-    <property name="KEYMAP" value="next&#10;close&#10;case&#10;debug&#10;memb" />
+    <property name="KEYMAP" value="duplicate&#10;next&#10;close&#10;case&#10;debug" />
     <property name="LayoutCode.optimizeImports" value="true" />
     <property name="LayoutCode.rearrangeEntries" value="true" />
-    <property name="MarketplacePluginsSearchHistory" value="/tag:Editor&#10;/tag:Keymap&#10;vim-multiple-cursors&#10;vim&#10;rust" />
+    <property name="MarketplacePluginsSearchHistory" value="/tag:Theme&#10;/tag:Editor&#10;/tag:Keymap&#10;vim-multiple-cursors&#10;vim" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MochaJavaScriptTestRunnerSupport.hideIgnoredTests" value="true" />
@@ -162,46 +178,47 @@
     <property name="NonModalCommitCustomization.IsApplied" value="true" />
     <property name="PluginConfigurable.selectionTab" value="1" />
     <property name="SHELLCHECK.PATH" value="$APPLICATION_PLUGINS_DIR$/Shell Script/shellcheck" />
-    <property name="SettingsSearchHistory" value="task&#10;theme&#10;plugin&#10;vim&#10;prett" />
+    <property name="SettingsSearchHistory" value="TODO&#10;unused&#10;theme&#10;color&#10;task" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="Vcs.Push.Splitter.Tree.Proportion" value="0.35338983" />
-    <property name="appcds.runOnSecondStart" value="WS-213.6777.57-2770a098b071ddfcad2a63543edae6e4b64167bc52ed20095f2bbea67fe727ce" />
+    <property name="appcds.runOnSecondStart" value="WS-213.7172.31-6a768a77d2a3e3f5ae2c479f866d620e5922f8540a532052acc25116dd9caa19" />
     <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
     <property name="build.toolwindow.Build Output.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
     <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
-    <property name="bundled.plugins.list.saved.version" value="WS-213.6777.57" />
+    <property name="bundled.plugins.list.saved.version" value="WS-213.7172.31" />
     <property name="completion.ml.enabled.notification.shown" value="true" />
     <property name="debugger.smart.chooser.counter" value="3" />
     <property name="debugger.speed.search.tree.option.hint.counter" value="1" />
     <property name="evlsprt3.202" value="18" />
     <property name="evlsprt3.211" value="13" />
+    <property name="evlsprt3.213" value="3" />
     <property name="export.settings.marked" value="codestyles|options/colors.scheme.xml|options/github.xml|options/linux/keymap.xml|keymaps|options/baseRefactoring.xml|options/ui.lnf.xml|" />
     <property name="export.settings.path" value="$USER_HOME$/Desktop/settings.zip" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter&#10;/home/havas/Documents/energy_ball.png&#10;/home/havas/NewHome/Projects/shopcart-api&#10;/home/havas/Documents/Projects/havas-web/havas-core&#10;/home/havas/Documents/Projects/havas-web&#10;/home/havas/Documents/Projects/cookbook/cookbook-server&#10;/home/havas/Documents/Projects/havas-web/havas-express&#10;/home/havas/Documents/Projects/dices&#10;/home/havas/Documents/Projects/havas-express&#10;/home/havas/Documents/Projects/WebAssembly-Test/data-processor/Cargo.toml&#10;/home/havas/Documents/Projects/WebAssembly-Test/data-processor&#10;/home/havas/Documents/Projects/HavasOrm&#10;/home/havas/Documents/Projects/node-multiple&#10;/home/havas/Documents/rust/ThreadWork&#10;/home/havas/Documents/rust&#10;/home/havas/Documents/Projects/dices/dices-rust-to-nodejs&#10;/home/havas/Documents/Projects/dices/dices-impl&#10;/home/havas/Documents/Projects/excersism/rust&#10;/home/havas/Documents/Projects/HavasOrm/cookbook-server/src/index.ts&#10;/home/havas/Documents/Projects/HavasOrm/havas-express/src/decorators/middleware_decorators.ts&#10;/home/havas/Documents/Projects/HavasOrm/havas-express&#10;/home/havas/Documents/Projects/Electron-React-Binance&#10;/home/havas/Documents/Projects/CockServant&#10;/home/havas/Documents/Projects/Ts-Orm/compile.sh&#10;/home/havas/Desktop/settings.zip&#10;/home/havas/Documents/Projects/npm_dependency_test&#10;/home/havas/Documents/Projects/npm_dep_suer&#10;/home/havas/Documents/Projects/rendering&#10;/home/havas/Documents/Projects/home_edu2&#10;/home/havas/Documents/Projects/home_edu" />
-    <property name="file.gist.reindex.count" value="10946" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Documents/Projects/havas-web/Szakdolgozat&#10;/home/havas/Documents/Projects/havas-web/Szakdolgozat/latex_rework&#10;/home/havas/NewHome/Projects/vite-project&#10;/home/havas/Documents/Projects/havas-web/havas-api-documenter&#10;/home/havas/Documents/energy_ball.png&#10;/home/havas/NewHome/Projects/shopcart-api&#10;/home/havas/Documents/Projects/havas-web/havas-core&#10;/home/havas/Documents/Projects/havas-web&#10;/home/havas/Documents/Projects/cookbook/cookbook-server&#10;/home/havas/Documents/Projects/havas-web/havas-express&#10;/home/havas/Documents/Projects/dices&#10;/home/havas/Documents/Projects/havas-express&#10;/home/havas/Documents/Projects/WebAssembly-Test/data-processor/Cargo.toml&#10;/home/havas/Documents/Projects/WebAssembly-Test/data-processor&#10;/home/havas/Documents/Projects/HavasOrm&#10;/home/havas/Documents/Projects/node-multiple&#10;/home/havas/Documents/rust/ThreadWork&#10;/home/havas/Documents/rust&#10;/home/havas/Documents/Projects/dices/dices-rust-to-nodejs&#10;/home/havas/Documents/Projects/dices/dices-impl&#10;/home/havas/Documents/Projects/excersism/rust&#10;/home/havas/Documents/Projects/HavasOrm/cookbook-server/src/index.ts&#10;/home/havas/Documents/Projects/HavasOrm/havas-express/src/decorators/middleware_decorators.ts&#10;/home/havas/Documents/Projects/HavasOrm/havas-express&#10;/home/havas/Documents/Projects/Electron-React-Binance&#10;/home/havas/Documents/Projects/CockServant&#10;/home/havas/Documents/Projects/Ts-Orm/compile.sh&#10;/home/havas/Desktop/settings.zip&#10;/home/havas/Documents/Projects/npm_dependency_test&#10;/home/havas/Documents/Projects/npm_dep_suer" />
+    <property name="file.gist.reindex.count" value="11106" />
     <property name="fileTypeChangedCounter" value="20" />
     <property name="fileTypeDetectors" value="com.intellij.docker.dockerFile.DockerFileTypeDetector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector:org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector" />
-    <property name="find.popup.splitter" value="0.33225808" />
+    <property name="find.popup.splitter" value="0.4251627" />
     <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
     <property name="got.it.tooltip.reader.mode.got.it" value="1" />
     <property name="got.it.tooltip.terminal.smart_command_execution" value="1" />
     <property name="ide.memory.adjusted" value="true" />
-    <property name="ide.updates.old.dirs.scan.scheduled" value="1647359514957" />
     <property name="ide.updates.previous.build.number" value="WS-211.7142.46" />
     <property name="ide.updates.whats.new.shown.for" value="213" />
-    <property name="ideavim.statistics.timestamp" value="1646844446418" />
-    <property name="ift.learning.panel.opened.in" value="213.6777.57" />
+    <property name="ideavim.statistics.timestamp" value="1652550995362" />
+    <property name="ift.learning.panel.opened.in" value="213.7172.31" />
     <property name="input.method.disabler.muted" value="true" />
     <property name="js.modules.notification.shown" value="true" />
     <property name="js.rename.search.for.text.occurrences" value="false" />
     <property name="js.rename.search.in.comments" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/energy_ball.png" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Projects/havas-web/Szakdolgozat/latex_rework" />
     <property name="log.trace.categories" value="#com.jetbrains.rdserver.requests&#10;#com.jetbrains.rd.ide.document&#10;#com.jetbrains.rdserver.document&#10;#com.jetbrains.rdserver.editors&#10;#com.jetbrains.rdserver.actions" />
     <property name="org.intellij.images.editor.actions.BackgroundImageDialog#recent" value="" />
     <property name="org.rust.lang.LAST_UPDATE" value="1631735184105" />
     <property name="org.rust.lang.LAST_VERSION" value="0.4.154.4085-211" />
-    <property name="registry.to.advanced.settings.migration.build" value="WS-213.6777.57" />
-    <property name="selected.color.option.type" value="org.rust.FORMAT_PARAMETER" />
+    <property name="quick.doc.font.size.v3" value="LARGE" />
+    <property name="registry.to.advanced.settings.migration.build" value="WS-213.7172.31" />
+    <property name="selected.color.option.type" value="TODO_DEFAULT_ATTRIBUTES" />
     <property name="settings.code.style.selected.tab.CSS" value="Blank Lines" />
     <property name="settings.code.style.selected.tab.EditorConfig" value="Wrapping and Braces" />
     <property name="settings.code.style.selected.tab.HTML" value="Other" />
@@ -216,18 +233,15 @@
     <property name="tasks.pass.word.conversion.enforced" value="true" />
     <property name="terminalCustomCommandExecutionTurnOff" value="false" />
     <property name="ts.lib.d.ts.version" value="4.5.4" />
-    <property name="vcs.branch.view.splitter.proportion" value="0.10429448" />
+    <property name="vcs.branch.view.splitter.proportion" value="0.19932811" />
     <property name="vcs.log.changes.splitter.proportion" value="0.66839" />
   </component>
   <component name="TerminalCommandHistoryManager">
     <command-history-files>
-      <command-history-file filename="havas-express-history" project-path="$USER_HOME$/Documents/Projects/havas-web/havas-express" last-access-time="1645174122850" />
-      <command-history-file filename="havas-web-history6" project-path="$USER_HOME$/Documents/Projects/havas-web" last-access-time="1646664796932" />
-      <command-history-file filename="havas-express-history2" project-path="$USER_HOME$/Documents/Projects/havas-web/havas-express" last-access-time="1645182295092" />
-      <command-history-file filename="havas-express-history1" project-path="$USER_HOME$/Documents/Projects/havas-web/havas-express" last-access-time="1645174122879" />
-      <command-history-file filename="havas-core-history" project-path="$USER_HOME$/Documents/Projects/havas-web/havas-core" last-access-time="1645093498159" />
-      <command-history-file filename="havas-web-history1" project-path="$USER_HOME$/Documents/Projects/havas-web" last-access-time="1646664796949" />
-      <command-history-file filename="shopcart-api-history" project-path="$USER_HOME$/NewHome/Projects/shopcart-api" last-access-time="1645694525410" />
+      <command-history-file filename="havas-web-history" project-path="$USER_HOME$/Documents/Projects/havas-web" last-access-time="1652609985800" />
+      <command-history-file filename="havas-web-history11" project-path="$USER_HOME$/Documents/Projects/havas-web" last-access-time="1652609985813" />
+      <command-history-file filename="havas-web-history1" project-path="$USER_HOME$/Documents/Projects/havas-web" last-access-time="1652609985807" />
+      <command-history-file filename="havas-web-history2" project-path="$USER_HOME$/Documents/Projects/havas-web" last-access-time="1652609985810" />
     </command-history-files>
   </component>
 </application>

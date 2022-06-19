@@ -19,15 +19,15 @@
     <runner id="Debug">
       <ViewImpl>
         <option name="ID" value="FrameContent" />
-        <option name="placeInGrid" value="left" />
+        <option name="placeInGrid" value="bottom" />
       </ViewImpl>
       <ViewImpl>
         <option name="ID" value="VariablesContent" />
-        <option name="placeInGrid" value="center" />
+        <option name="placeInGrid" value="left" />
       </ViewImpl>
       <ViewImpl>
         <option name="ID" value="ConsoleContent" />
-        <option name="placeInGrid" value="left" />
+        <option name="placeInGrid" value="bottom" />
       </ViewImpl>
       <ViewImpl>
         <option name="ID" value="SCRIPTS_CONTENT" />
@@ -43,7 +43,7 @@
       </ViewImpl>
       <ViewImpl>
         <option name="ID" value="WatchesContent" />
-        <option name="placeInGrid" value="left" />
+        <option name="placeInGrid" value="right" />
       </ViewImpl>
       <ViewImpl>
         <option name="ID" value="js.console.node.process.id" />
@@ -51,10 +51,10 @@
         <option name="tabIndex" value="1" />
       </ViewImpl>
       <TabImpl>
-        <option name="bottomProportion" value="0.65352696" />
+        <option name="bottomProportion" value="0.59953433" />
         <option name="displayName" value="Debugger" />
-        <option name="leftProportion" value="0.5478694" />
-        <option name="rightProportion" value="0.27695352" />
+        <option name="leftProportion" value="0.5045977" />
+        <option name="rightProportion" value="0.39885056" />
       </TabImpl>
       <TabImpl>
         <option name="bottomProportion" value="0.0" />

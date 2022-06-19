@@ -5,13 +5,28 @@ call plug#begin()
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'terryma/vim-multiple-cursors'
 
-Plug 'pangloss/vim-javascript'    " JavaScript support
-Plug 'leafgarland/typescript-vim' " TypeScript syntax
-Plug 'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
 Plug 'scrooloose/nerdcommenter'
 
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+
+" Useless Fancy
+Plug 'vim-airline/vim-airline'
+Plug 'luochen1990/rainbow'
+
+" This Web & Vue
+Plug 'mattn/emmet-vim'
+Plug 'leafOfTree/vim-vue-plugin'
+Plug 'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
+
+" Ale
+Plug 'dense-analysis/ale'
+
+" Some syntax support
+Plug 'yaegassy/coc-volar', {'do': 'yarn install --frozen-lockfile'}
+Plug 'yaegassy/coc-nginx', {'do': 'yarn install --frozen-lockfile'}
 
 call plug#end()
 
@@ -22,6 +37,7 @@ set background=dark
 " Some stuff for path
 set path+=**
 
+set mouse=nv
 " Set cursor stuff:
 set number
 set relativenumber
@@ -39,7 +55,6 @@ filetype indent on
 set smartindent
 
 set hlsearch
-
 
 
 " Disable backups and swap files
@@ -112,19 +127,22 @@ vmap <C-x> "+d
 
 
 " Easier movement between split windows CTRL + {h, j, k, l}
-nnoremap <c-h> <c-w>h
+  nnoremap <c-h> <c-w>h
 nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-l> <c-w>l
 
-
 " noremap <ALT-1> 1glet g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']t
-" noremap <ALT-2> 2gt
-" noremap <ALT-3> 3gt
+noremap <leader>1 1gt
+noremap <leader>2 2gt
+noremap <leader>3 3gt
+noremap <leader>4 4gt
+noremap <leader>5 5gt
+noremap <leader>6 6gt
 
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
-let g:coc_global_extensions = ['coc-solargraph', 'coc-pairs', 'coc-prettier',  'coc-tsserver', 'coc-json']
+let g:coc_global_extensions = ['coc-pairs', 'coc-prettier',  'coc-tsserver', 'coc-json']
 
 if isdirectory('./node_modules') && isdirectory('./node_modules/eslint')
   let g:coc_global_extensions += ['coc-eslint']
@@ -209,8 +227,6 @@ nmap gn :tabn<enter>
 " Format
 " nmap <leader>f   :CocCommand prettier.formatFile<CR>
 
-
-
 " nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>e <cmd>lua require('telescope.builtin').git_files()<cr>
 nnoremap <leader>fe <cmd>Telescope find_files<cr>
@@ -218,7 +234,8 @@ nnoremap <leader>ff <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
-" Remove anoying
+
+" Remove annoying
 noremap J <nop>
 " noremap K <nop>
 
@@ -228,3 +245,25 @@ augroup THE_PRIMEAGEN
     " autocmd BufWritePre *.lua Neoformat
     autocmd BufWritePre * %s/\s\+$//e
 augroup END
+
+let g:user_emmet_mode='n'
+let g:vim_vue_plugin_load_full_syntax = 1
+let g:user_emmet_install_global = 1
+let g:user_emmet_leader_key = ','
+autocmd FileType html,css,vue EmmetInstall
+let g:vim_vue_plugin_config = {
+      \'syntax': {
+      \   'template': ['html'],
+      \   'script': ['javascript', 'typescript', ],
+      \   'style': ['css', 'scss', 'sass', 'less', ],
+      \   'i18n': ['json'],
+      \   'route': 'json',
+      \},
+      \'full_syntax': ['json'],
+      \'initial_indent': ['i18n', 'i18n.json', 'yaml'],
+      \'attribute': 1,
+      \'keyword': 1,
+      \'foldexpr': 1,
+      \'debug': 0,
+      \}
+

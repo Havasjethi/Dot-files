@@ -253,18 +253,6 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/Documents/Projects/havas-web/havas-express">
-          <value>
-            <RecentProjectMetaInfo frameTitle="havas-express – error_handler.test.ts" projectWorkspaceId="1wlj3FyUQ2BcAKBajVO5EIV7whF">
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="WS-211.7142.46" />
-              <option name="buildTimestamp" value="1619777879580" />
-              <frame x="60" y="27" width="1860" height="1053" extendedState="6" />
-              <option name="productionCode" value="WS" />
-              <option name="projectOpenTimestamp" value="1645184437500" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="$USER_HOME$/NewHome/Projects/shopcart-api">
           <value>
             <RecentProjectMetaInfo frameTitle="shopcart-api – router.ts" projectWorkspaceId="25WX3dAgfxz1BgdXkEQlzA2IL77">
@@ -277,27 +265,63 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/Documents/Projects/havas-web">
+        <entry key="$USER_HOME$/NewHome/Projects/vite-project">
           <value>
-            <RecentProjectMetaInfo frameTitle="havas-web – cls_related.ts" projectWorkspaceId="1pXIFbsziV9ozq4q6hqaqSTiBPD">
+            <RecentProjectMetaInfo frameTitle="vite-project – Commit: App.vue" projectWorkspaceId="26X1L5cPbSQmbdsjd82PkxGrqr3">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="WS-211.7142.46" />
-              <option name="buildTimestamp" value="1619777878762" />
+              <option name="build" value="WS-213.6777.57" />
+              <option name="buildTimestamp" value="1643630831009" />
               <frame x="60" y="27" width="1860" height="1053" extendedState="6" />
               <option name="productionCode" value="WS" />
-              <option name="projectOpenTimestamp" value="1645719516713" />
+              <option name="projectOpenTimestamp" value="1647555057521" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
         <entry key="$USER_HOME$/Documents/Projects/havas-web/havas-api-documenter">
           <value>
-            <RecentProjectMetaInfo frameTitle="havas-api-documenter – ~/Documents/Projects/havas-web/havas-api-documenter/node_modules/typescript/lib/typescript.d.ts" opened="true" projectWorkspaceId="26AEPSnVaC8D1P8knXOuAex2odM">
+            <RecentProjectMetaInfo frameTitle="havas-api-documenter – analyzer.ts" projectWorkspaceId="26AEPSnVaC8D1P8knXOuAex2odM">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="WS-213.6777.57" />
-              <option name="buildTimestamp" value="1643630876542" />
+              <option name="buildTimestamp" value="1643630837861" />
               <frame x="60" y="27" width="1860" height="1053" extendedState="6" />
               <option name="productionCode" value="WS" />
-              <option name="projectOpenTimestamp" value="1646857966066" />
+              <option name="projectOpenTimestamp" value="1648454842570" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Projects/havas-web/Szakdolgozat">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Szakdolgozat – main.tex" projectWorkspaceId="28cuxRMHOW0rv8uQGequ0DU5TLZ">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-213.7172.31" />
+              <option name="buildTimestamp" value="1647598157717" />
+              <frame x="60" y="27" width="1860" height="1053" extendedState="6" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1651528440208" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Projects/havas-web/havas-express">
+          <value>
+            <RecentProjectMetaInfo frameTitle="havas-express – .prettierrc.json" projectWorkspaceId="1wlj3FyUQ2BcAKBajVO5EIV7whF">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-213.7172.31" />
+              <option name="buildTimestamp" value="1647598165386" />
+              <frame x="60" y="27" width="1860" height="1053" extendedState="6" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1652196530815" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Projects/havas-web">
+          <value>
+            <RecentProjectMetaInfo frameTitle="havas-web" opened="true" projectWorkspaceId="1pXIFbsziV9ozq4q6hqaqSTiBPD">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-213.7172.31" />
+              <option name="buildTimestamp" value="1647598181919" />
+              <frame x="60" y="27" width="1860" height="1053" extendedState="6" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1652197385083" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

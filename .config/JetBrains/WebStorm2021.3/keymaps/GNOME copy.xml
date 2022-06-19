@@ -65,7 +65,6 @@
     <keyboard-shortcut first-keystroke="shift delete" />
   </action>
   <action id="EditorDeleteToWordEnd" />
-  <action id="EditorDuplicate" />
   <action id="EditorSelectWord" />
   <action id="EditorSplitLine">
     <keyboard-shortcut first-keystroke="shift enter" />
@@ -99,9 +98,7 @@
   <action id="GotoTest" />
   <action id="Graph.ApplyCurrentLayout" />
   <action id="IncrementWindowHeight" />
-  <action id="MethodDown">
-    <keyboard-shortcut first-keystroke="ctrl d" />
-  </action>
+  <action id="MethodDown" />
   <action id="MethodUp">
     <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
