@@ -16,9 +16,11 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'vim-airline/vim-airline'
 Plug 'luochen1990/rainbow'
 
-" This Web & Vue
+" This Web
 Plug 'mattn/emmet-vim'
-Plug 'leafOfTree/vim-vue-plugin'
+
+" SPA stuff
+Plug 'leafOfTree/vim-vue-plugin' " Vue
 Plug 'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
 
 " Ale
@@ -127,7 +129,7 @@ vmap <C-x> "+d
 
 
 " Easier movement between split windows CTRL + {h, j, k, l}
-  nnoremap <c-h> <c-w>h
+nnoremap <c-h> <c-w>h
 nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-l> <c-w>l
@@ -142,7 +144,7 @@ noremap <leader>6 6gt
 
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
-let g:coc_global_extensions = ['coc-pairs', 'coc-prettier',  'coc-tsserver', 'coc-json']
+let g:coc_global_extensions = ['coc-pairs', 'coc-prettier',  'coc-tsserver', 'coc-angular',  'coc-json']
 
 if isdirectory('./node_modules') && isdirectory('./node_modules/eslint')
   let g:coc_global_extensions += ['coc-eslint']
@@ -179,6 +181,7 @@ endfunction
 
 nmap <silent> <leader>G <Plug>(coc-diagnostic-prev)
 nmap <silent> <leader>g <Plug>(coc-diagnostic-next)
+
 " CoC extensions
 
 " Add CoC Prettier if prettier is installed
@@ -204,6 +207,10 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
 nmap <silent> ga <Plug>(coc-codeaction)
+
+nmap <silent> <leader>aa :call CocAction('runCommand', 'angular.goToComponentWithTemplateFile')<CR>
+nmap <silent> <leader>at :call CocAction('runCommand', 'angular.goToTemplateForComponent')<CR>
+
 
 " Use K to show documentation in preview window.
 nnoremap <silent> K :call ShowDocumentation()<CR>

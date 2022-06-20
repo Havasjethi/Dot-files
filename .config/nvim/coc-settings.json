@@ -1,0 +1,15 @@
+{
+  "suggest.noselect": false,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "json",
+    "rust",
+    "typescript.tsc",
+    "css",
+    "markdown",
+    "vue"
+  ],
+  "rust-analyzer.server.path": "/home/havas/bin/rust-analyzer",
+  "rust-analyzer.inlayHints.chainingHintsSeparator": " "
+}
