@@ -1,16 +1,20 @@
 set nocompatible
 
 call plug#begin()
+" Theme
+Plug 'morhetz/gruvbox'
 
+" General
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'terryma/vim-multiple-cursors'
+Plug 'scrooloose/nerdcommenter'
+Plug 'nvim-telescope/telescope.nvim'
 
+"Language
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
-Plug 'scrooloose/nerdcommenter'
 
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
 
 " Useless Fancy
 Plug 'vim-airline/vim-airline'
@@ -275,4 +279,3 @@ let g:vim_vue_plugin_config = {
       \}
 
 nnoremap <leader>cc :call NERDComment('x', 'toggle')<CR>
-
