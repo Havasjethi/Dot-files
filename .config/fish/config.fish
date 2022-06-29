@@ -12,7 +12,10 @@ set EDITOR nvim
 export NODE_OPTIONS=--openssl-legacy-provider
 
 alias vim nvim
-alias svim='vim -u ~/.SpaceVim/vimrc'
+alias svim='nvim -u ~/.SpaceVim/vimrc'
+alias frc='nvim ~/.config/fish/config.fish'
+alias vrc='nvim ~/.vimrc'
+alias reload='source ~/.config/fish/config.fish'
 
 alias l 'exa -l'
 alias ls exa

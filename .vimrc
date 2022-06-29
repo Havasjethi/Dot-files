@@ -5,12 +5,16 @@ call plug#begin()
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'terryma/vim-multiple-cursors'
 
+" General
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'scrooloose/nerdcommenter'
-
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " Useless Fancy
 Plug 'vim-airline/vim-airline'
@@ -29,6 +33,12 @@ Plug 'dense-analysis/ale'
 " Some syntax support
 Plug 'yaegassy/coc-volar', {'do': 'yarn install --frozen-lockfile'}
 Plug 'yaegassy/coc-nginx', {'do': 'yarn install --frozen-lockfile'}
+
+" Untested
+Plug 'https://github.com/tpope/vim-surround.git'
+Plug 'liuchengxu/vim-which-key'
+" Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
+" Plug 'preservim/nerdcommenter'
 
 call plug#end()
 
@@ -49,6 +59,9 @@ set linebreak
 
 " This might be wrong:
 set wrap
+
+" WIM
+" set autoread
 
 
 filetype on
@@ -110,9 +123,11 @@ imap <C-s> <esc>:w<enter>a
 imap <C-d> <esc>yypi
 imap <ESC>[C <esc>ea
 imap <ESC>[D <esc>bi
+" <C-o>pa
 imap <C-v> <esc>pa
 imap <C-x> <esc>"+ddi
 " imap <C-Enter> <esc>oi
+
 "	Normal
 " r00000000000
 nmap <C-s> :w<enter>
@@ -141,6 +156,12 @@ noremap <leader>3 3gt
 noremap <leader>4 4gt
 noremap <leader>5 5gt
 noremap <leader>6 6gt
+noremap <leader>7 7gt
+noremap <leader>8 8gt
+noremap <leader>9 9gt
+
+noremap <leader>0 :tablast<cr>
+nnoremap <leader>x :tabclose<Cr>
 
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
@@ -208,8 +229,23 @@ nmap <silent> gr <Plug>(coc-references)
 
 nmap <silent> ga <Plug>(coc-codeaction)
 
+nmap <silent> gE <Plug>(coc-diagnostic-prev)
+nmap <silent> ge <Plug>(coc-diagnostic-next)
+
 nmap <silent> <leader>aa :call CocAction('runCommand', 'angular.goToComponentWithTemplateFile')<CR>
 nmap <silent> <leader>at :call CocAction('runCommand', 'angular.goToTemplateForComponent')<CR>
+
+
+" Map function and class text objects
+" NOTE: Requires 'textDocument.documentSymbol' support from the language server.
+xmap if <Plug>(coc-funcobj-i)
+omap if <Plug>(coc-funcobj-i)
+xmap af <Plug>(coc-funcobj-a)
+omap af <Plug>(coc-funcobj-a)
+xmap ic <Plug>(coc-classobj-i)
+omap ic <Plug>(coc-classobj-i)
+xmap ac <Plug>(coc-classobj-a)
+omap ac <Plug>(coc-classobj-a)
 
 
 " Use K to show documentation in preview window.
@@ -274,5 +310,26 @@ let g:vim_vue_plugin_config = {
       \'debug': 0,
       \}
 
-nnoremap <leader>cc :call NERDComment('x', 'toggle')<CR>
+" Older shitier: / :call NERDComment('x', 'toggle')<CR>
+nmap <leader>cc <leader>c<space>
+let g:NERDSpaceDelims = 2
 
+
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
+let g:NERDTreeWinPos = "right"
+
+let g:NERDTreeGitStatusIndicatorMapCustom = {
+                \ 'Modified'  :'✹',
+                \ 'Staged'    :'✚',
+                \ 'Untracked' :'✭',
+                \ 'Renamed'   :'➜',
+                \ 'Unmerged'  :'═',
+                \ 'Deleted'   :'✖',
+                \ 'Dirty'     :'✗',
+                \ 'Ignored'   :'☒',
+                \ 'Clean'     :'✔︎',
+                \ 'Unknown'   :'?',
+                \ }
