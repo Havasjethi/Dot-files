@@ -12,14 +12,17 @@ set wildignore+=**/ios/*
 set wildignore+=**/.git/*
 
 call plug#begin()
+" Theme
+Plug 'morhetz/gruvbox'
 
+" General
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'terryma/vim-multiple-cursors'
+Plug 'scrooloose/nerdcommenter'
+Plug 'nvim-telescope/telescope.nvim'
 
 " General
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'pangloss/vim-javascript'
-Plug 'leafgarland/typescript-vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
@@ -27,6 +30,12 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+
+"Language
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+
+Plug 'nvim-lua/plenary.nvim'
 
 " Useless Fancy
 Plug 'vim-airline/vim-airline'
