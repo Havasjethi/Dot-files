@@ -11,5 +11,6 @@
     "vue"
   ],
   "rust-analyzer.server.path": "/home/havas/bin/rust-analyzer",
-  "rust-analyzer.inlayHints.chainingHintsSeparator": " "
+  "rust-analyzer.inlayHints.chainingHintsSeparator": " ",
+  "typescript.suggest.completeFunctionCalls": true
 }
