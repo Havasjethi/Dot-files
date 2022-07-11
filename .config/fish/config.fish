@@ -33,6 +33,7 @@ alias log='vim ~/Documents/logs/(date +%m-%d)'
 alias todo='vim ~/todo'
 alias clip="xsel -b"
 alias ripgrep="rg"
+alias shutdown="~/bin/script_runner.sh ~/bin/shutdown 'shutdown now'"
 
 abbr gco 'git commit -m'
 abbr gch 'git checkout'
