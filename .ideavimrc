@@ -1,0 +1,70 @@
+set surround
+set multiple-cursors
+set commentary
+set NERDTree
+
+set number
+set relativenumber
+set smartindent
+" set cursorline
+" set linebreak
+
+set ignorecase " Ignore case when searching
+set smartcase  " When searching try to be smart about cases
+
+set scrolloff=8
+
+set clipboard+=unnamedplus
+
+let mapleader = " "
+
+set incsearch
+
+
+" nmap <C-a> ggVGy<C-O><C-O>
+" nmap R :%s/com.frontendart/${package}.${rootArtifactId}/g<enter>:%s/TemplateApplication/${appName}/g<enter>
+
+
+imap <C-d> <esc>yypi
+imap <C-v> <esc>pa
+
+noremap <leader>1 1gt
+noremap <leader>2 2gt
+noremap <leader>3 3gt
+noremap <leader>4 4gt
+noremap <leader>5 5gt
+noremap <leader>6 6gt
+
+
+" Plugins
+
+Plug 'scrooloose/nerdcommenter'
+Plug 'tpope/vim-surround'
+Plug 'mattn/emmet-vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+map ge <Action>(GotoNextError)
+map gE <Action>(GotoPreviousError)
+nnoremap gi :action GotoImplementation<CR>
+nnoremap gd :action GotoDeclaration<CR>
+nnoremap gp :action GotoSuperMethod<CR>
+nnoremap gt :action GotoTest<CR>
+" nnoremap gb :action Back<CR>
+" nnoremap gf :action Forward<CR>
+
+noremap <C-h> :action PreviousTab<CR>
+noremap <C-l> :action NextTab<CR>
+
+" nnoremap <C-o> :action Back<CR>
+" nnoremap <C-i> :action Forward<CR>
+" nnoremap <tab> :action Forward<CR>
+
+nnoremap <leader>u :action FindUsages<CR>
+nnoremap <leader>h :action CallHierarchy<CR>
+noremap <leader>f :NERDTreeFocus<CR>
+
+vnoremap <leader>re :action Replace<CR>
+nnoremap <leader>re :action Replace<CR>
+nnoremap <leader>ge :action Generate<CR>
+
+
