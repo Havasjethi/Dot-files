@@ -125,7 +125,7 @@ imap <C-v> <esc>pa
 " imap <C-Enter> <esc>oi
 "	Normal
 " r00000000000
-nmap <C-s> :w<enter>
+nmap <C-s> :wall<enter>
 nmap <C-x> "+dd
 nmap <C-c> "+yy
 "nmap <C-d> yyp
@@ -139,7 +139,7 @@ nmap <C-a> ggVGy<C-O><C-O>
 
 "	Visual
 vmap <C-x> "+d
-
+vmap p "_dP
 
 " Easier movement between split windows CTRL + {h, j, k, l}
 nnoremap <c-h> <c-w>h
@@ -262,7 +262,9 @@ omap ac <Plug>(coc-classobj-a)
 " nmap <leader>f   :CocCommand prettier.formatFile<CR>
 
 " nnoremap <leader>ff <cmd>Telescope find_files<cr>
-nnoremap <leader>e <cmd>lua require('telescope.builtin').git_files()<cr>
+" nnoremap <leader>e <cmd>lua require('telescope.builtin').git_files()<cr>
+
+noremap <leader>e :Telescope find_files<cr>
 nnoremap <leader>fe <cmd>Telescope find_files<cr>
 nnoremap <leader>ff <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
