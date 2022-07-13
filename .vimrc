@@ -125,7 +125,7 @@ imap <C-v> <esc>pa
 " imap <C-Enter> <esc>oi
 "	Normal
 " r00000000000
-nmap <C-s> :wall<enter>
+nmap <silent> <C-s> :wall<enter>
 nmap <C-x> "+dd
 nmap <C-c> "+yy
 "nmap <C-d> yyp
