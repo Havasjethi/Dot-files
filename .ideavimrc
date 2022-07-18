@@ -5,7 +5,7 @@ set NERDTree
 
 set number
 set relativenumber
-set smartindent
+" set smartindent
 " set cursorline
 " set linebreak
 
@@ -61,7 +61,7 @@ noremap <C-l> :action NextTab<CR>
 
 nnoremap <leader>u :action FindUsages<CR>
 nnoremap <leader>h :action CallHierarchy<CR>
-noremap <leader>f :NERDTreeFocus<CR>
+noremap <leader>n :NERDTreeFocus<CR>
 
 vnoremap <leader>re :action Replace<CR>
 nnoremap <leader>re :action Replace<CR>
