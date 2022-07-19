@@ -1,7 +1,7 @@
 set --path --append PATH /opt/nodejs/node/bin
 set --path --append PATH /opt/zstd-1.5.2/programs
 set --path --append PATH /opt/jdk
-set --path --append PATH /opt/gradle-7.4.2
+set --path --append PATH /opt/gradle-7.4.2/bin
 set --path --append PATH ~/Documents/bash
 
 # set --path --append PATH ~/.deno/bin/
@@ -19,7 +19,9 @@ alias vim nvim
 alias svim='nvim -u ~/.SpaceVim/vimrc'
 alias frc='nvim ~/.config/fish/config.fish'
 alias vrc='nvim ~/.vimrc'
+alias irc='nvim ~/.ideavimrc'
 alias reload='source ~/.config/fish/config.fish'
+alias shutdown='echo hell'
 
 alias l 'exa -l'
 alias ls exa

@@ -14,6 +14,10 @@ set wildignore+=**/.git/*
 call plug#begin()
 " Theme
 Plug 'morhetz/gruvbox'
+Plug 'rebelot/kanagawa.nvim'
+Plug 'joshdick/onedark.vim'
+Plug 'amadeus/vim-evokai'
+Plug 'dracula/vim'
 
 " General
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -140,8 +144,9 @@ let mapleader = " "
 map <C-@> <nul>
 
 "	Insert mode
-imap <C-s> <esc>:w<enter>a
-imap <C-d> <esc>yypi
+imap <C-s> <esc>:wall<enter>a
+imap <C-d> <esc>"_yypi
+imap <C-d> <esc>"cyy"cpi
 imap <ESC>[C <esc>ea
 imap <ESC>[D <esc>bi
 " <C-o>pa
@@ -151,7 +156,7 @@ imap <C-x> <esc>"+ddi
 
 "	Normal
 " r00000000000
-nmap <C-s> :w<enter>
+nmap <silent> <C-s> :wall<enter>
 nmap <C-x> "+dd
 nmap <C-c> "+yy
 "nmap <C-d> yyp
