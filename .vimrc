@@ -126,7 +126,7 @@ imap <C-v> <esc>pa
 "	Normal
 " r00000000000
 nmap <silent> <C-s> :wall<enter>
-nmap <C-x> "+dd
+" nmap <C-x> "+dd
 nmap <C-c> "+yy
 "nmap <C-d> yyp
 nmap <ESC>[D b
@@ -135,7 +135,7 @@ nmap <ESC>[C e
 nmap <A-Up> yyp:
 
 " (--Selec--) Copy all
-nmap <C-a> ggVGy<C-O><C-O>
+" nmap <C-a> ggVGy<C-O><C-O>
 
 "	Visual
 vmap <C-x> "+d
