@@ -61,6 +61,8 @@ noremap <A-l> :action NextTab<CR>
 " nnoremap <C-i> :action Forward<CR>
 " nnoremap <tab> :action Forward<CR>
 
+noremap <leader>ff :action FindInPath<cr>
+
 nnoremap <leader>u :action FindUsages<CR>
 nnoremap <leader>h :action CallHierarchy<CR>
 noremap <leader>n :NERDTreeFocus<CR>

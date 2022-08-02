@@ -308,6 +308,7 @@ nmap <leader>cc <leader>c<space>
 
 let g:NERDSpaceDelims = 2
 
+nnoremap <leader>nf :NERDTreeFind<CR>
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>

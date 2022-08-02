@@ -12,6 +12,11 @@
     "markdown",
     "vue"
   ],
-  "rust-analyzer.server.path": "/home/havas/bin/rust-analyzer",
-  "rust-analyzer.inlayHints.chainingHintsSeparator": " "
+  "languageserver": {
+    "angular": {
+      "command": "",
+      "rootPatterns": ["angular.json", "frontend/angular.json"],
+      "filetypes": ["*.ts", "*.html", "*.scss"]
+    }
+  }
 }
