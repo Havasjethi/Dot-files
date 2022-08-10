@@ -316,4 +316,5 @@ nnoremap <C-f> :NERDTreeFind<CR>
 
 let g:NERDTreeWinPos = "right"
 let NERDTreeShowLineNumbers=1
+let g:NERDTreeWinSize=51
 autocmd FileType nerdtree setlocal relativenumber

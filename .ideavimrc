@@ -66,6 +66,7 @@ noremap <leader>ff :action FindInPath<cr>
 nnoremap <leader>u :action FindUsages<CR>
 nnoremap <leader>h :action CallHierarchy<CR>
 noremap <leader>n :NERDTreeFocus<CR>
+noremap <leader>nf :NERDTreeFind<cr>
 
 vnoremap <leader>re :action Replace<CR>
 nnoremap <leader>re :action Replace<CR>
@@ -74,3 +75,5 @@ noremap <leader>e :action GotoFile<CR>
 
 noremap <leader>6 :action CommentByLineComment<CR>
 noremap <leader>cc :action CommentByLineComment<CR>
+
+noremap é :action ShowErrorDescription<cr>

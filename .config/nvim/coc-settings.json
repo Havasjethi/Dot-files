@@ -12,6 +12,7 @@
     "markdown",
     "vue"
   ],
+  "sql.database": "postgresql",
   "languageserver": {
     "angular": {
       "command": "",
