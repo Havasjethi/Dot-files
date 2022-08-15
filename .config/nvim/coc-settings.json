@@ -5,19 +5,18 @@
     "javascript",
     "typescript",
     "json",
-    "rust",
     "typescript.tsc",
     "css",
+    "scss",
     "html",
-    "markdown",
-    "vue"
+    "markdown"
   ],
   "sql.database": "postgresql",
   "languageserver": {
     "angular": {
       "command": "",
       "rootPatterns": ["angular.json", "frontend/angular.json"],
-      "filetypes": ["*.ts", "*.html", "*.scss"]
+      "filetypes": ["*.ts", "*component.html", "*.scss"]
     }
   }
 }

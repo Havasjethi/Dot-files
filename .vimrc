@@ -303,8 +303,8 @@ let g:vim_vue_plugin_config = {
       \'debug': 0,
       \}
 
-nmap <leader>cc <leader>c<space>
-" :call NERDComment('x', 'toggle')<CR>
+nmap <silent> <leader>cc V<leader>cc
+vnoremap <leader>cc :<C-U>call NERDComment('x', 'toggle')<cr>
 
 let g:NERDSpaceDelims = 2
 
