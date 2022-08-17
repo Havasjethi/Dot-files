@@ -287,21 +287,6 @@ let g:vim_vue_plugin_load_full_syntax = 1
 let g:user_emmet_install_global = 1
 let g:user_emmet_leader_key = ','
 autocmd FileType html,css,vue EmmetInstall
-let g:vim_vue_plugin_config = {
-      \'syntax': {
-      \   'template': ['html'],
-      \   'script': ['javascript', 'typescript', ],
-      \   'style': ['css', 'scss', 'sass', 'less', ],
-      \   'i18n': ['json'],
-      \   'route': 'json',
-      \},
-      \'full_syntax': ['json'],
-      \'initial_indent': ['i18n', 'i18n.json', 'yaml'],
-      \'attribute': 1,
-      \'keyword': 1,
-      \'foldexpr': 1,
-      \'debug': 0,
-      \}
 
 nmap <silent> <leader>cc V<leader>cc
 vnoremap <leader>cc :<C-U>call NERDComment('x', 'toggle')<cr>
