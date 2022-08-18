@@ -99,6 +99,9 @@ set colorcolumn=80
 
 let mapleader = " "
 
+vnoremap <leader>cc :<C-U>call NERDComment('x', 'toggle')<cr>
+nmap <silent> <leader>cc V<leader>cc
+
 " set cursorline cursorcolum
 "
 " --------------------- "
@@ -210,8 +213,6 @@ nmap <leader>ac  <Plug>(coc-codeaction)
 " Apply AutoFix to problem on the current line.
 nmap <leader>qf  <Plug>(coc-fix-current)
 
-" TODO :: Use some Unified Language Server (LSP)
-" Goal: Work on differet languages
 nmap <F2> <Plug>(coc-rename)
 
 nmap <silent> gd <Plug>(coc-definition)
@@ -288,8 +289,6 @@ let g:user_emmet_install_global = 1
 let g:user_emmet_leader_key = ','
 autocmd FileType html,css,vue EmmetInstall
 
-nmap <silent> <leader>cc V<leader>cc
-vnoremap <leader>cc :<C-U>call NERDComment('x', 'toggle')<cr>
 
 let g:NERDSpaceDelims = 2
 
