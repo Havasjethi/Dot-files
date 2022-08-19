@@ -99,8 +99,9 @@ set colorcolumn=80
 
 let mapleader = " "
 
-vnoremap <leader>cc :<C-U>call NERDComment('x', 'toggle')<cr>
 nmap <silent> <leader>cc V<leader>cc
+vnoremap <leader>cc :<C-U>call NERDComment('x', 'toggle')<cr>
+
 
 " set cursorline cursorcolum
 "
