@@ -99,7 +99,8 @@ set colorcolumn=80
 
 let mapleader = " "
 
-nmap <silent> <leader>cc V<leader>cc
+nmap <leader>cc V<leader>cc
+
 vnoremap <leader>cc :<C-U>call NERDComment('x', 'toggle')<cr>
 
 
