@@ -19,5 +19,8 @@
       "rootPatterns": ["angular.json", "frontend/angular.json"],
       "filetypes": ["*.ts", "*component.html", "*.scss"]
     }
-  }
+  },
+  "cSpell.userWords": [
+    "entrypoint"
+  ]
 }
