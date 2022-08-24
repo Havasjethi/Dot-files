@@ -64,16 +64,12 @@ Plug 'dense-analysis/ale'
 Plug 'yaegassy/coc-volar', {'do': 'yarn install --frozen-lockfile'}
 Plug 'yaegassy/coc-nginx', {'do': 'yarn install --frozen-lockfile'}
 
-<<<<<<< HEAD
 " Surrounding content with '"([{}])"' && Replace <html_tags></html_tags>
-=======
 " Untested
-Plug 'https://github.com/tpope/vim-surround.git'
 Plug 'liuchengxu/vim-which-key'
 " Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
 " Plug 'preservim/nerdcommenter'
 
->>>>>>> master
 call plug#end()
 
 " Set color theme
@@ -361,8 +357,8 @@ let g:vim_vue_plugin_config = {
       \'debug': 0,
       \}
 
-nmap <leader>cc <leader>c<space>
-" :call NERDComment('x', 'toggle')<CR>
+vmap <leader>cc :<C-U>call NERDComment('x', 'toggle')<CR>
+nmap <leader>cc V<leader>cc
 
 let g:NERDSpaceDelims = 2
 
