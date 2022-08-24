@@ -35,7 +35,6 @@ alias todo='vim ~/todo'
 alias clip="xsel -b"
 alias ripgrep="rg"
 
-alias shutdown="~/bin/script_runner.sh ~/bin/shutdown 'shutdown now'"
 alias startup="~/bin/script_runner.sh ~/bin/startup"
 
 abbr gco 'git commit -m'

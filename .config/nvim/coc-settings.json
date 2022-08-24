@@ -1,5 +1,4 @@
 {
-  "java.jdt.ls.vmargs": "-javaagent:/home/jozsef/Documents/apps/lombok.jar -Xbootclasspath/a:/home/jozsef/Documents/apps/lombok.jar",
   "suggest.noselect": false,
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
@@ -18,5 +17,8 @@
       "rootPatterns": ["angular.json", "frontend/angular.json"],
       "filetypes": ["*.ts", "*.html", "*.scss"]
     }
-  }
+  },
+  "rust-analyzer.inlayHints.chainingHintsSeparator": " ",
+  "typescript.suggest.completeFunctionCalls": true,
+  "sql.database": "postgresql"
 }
