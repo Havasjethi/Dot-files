@@ -124,81 +124,12 @@ set expandtab
 set foldlevelstart=2
 syntax enable
 
-
 " ThePrimeagen
 set hidden
 set scrolloff=8
 set colorcolumn=80
 
-let mapleader = " "
-
-" set cursorline cursorcolum
-"
-" --------------------- "
-"     Key gs
-" --------------------- "
-
-" <ESC>[D  === Ctrl + Left
-" <ESC>[C  === Ctrl + Right
-
-
-"nmap <ESC>[D <C-Left>
-"nmap <ESC>[C <C-Right>
-
-" Globlal mode
-map <C-@> <nul>
-
-"	Insert mode
-imap <C-s> <esc>:wall<enter>a
-imap <C-d> <esc>"_yypi
-imap <C-d> <esc>"cyy"cpi
-imap <ESC>[C <esc>ea
-imap <ESC>[D <esc>bi
-" <C-o>pa
-imap <C-v> <esc>pa
-" imap <C-x> <esc>"+ddi
-" imap <C-Enter> <esc>oi
-
-"	Normal
-" r00000000000
-nmap <silent> <C-s> :wall<enter>
-" nmap <C-x> "+dd
-nmap <C-c> "+yy
-"nmap <C-d> yyp
-nmap <ESC>[D b
-nmap <ESC>[C e
-
-nmap <A-Up> yyp:
-
-" (--Selec--) Copy all
-" nmap <C-a> ggVGy<C-O><C-O>
-
-"	Visual
-vmap <C-x> "+d
-vmap p "_dP
-
-" Easier movement between split windows CTRL + {h, j, k, l}
-nnoremap <c-h> <c-w>h
-nnoremap <c-j> <c-w>j
-nnoremap <c-k> <c-w>k
-nnoremap <c-l> <c-w>l
-
-" noremap <ALT-1> 1glet g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']t
-noremap <leader>1 1gt
-noremap <leader>2 2gt
-noremap <leader>3 3gt
-noremap <leader>4 4gt
-noremap <leader>5 5gt
-noremap <leader>6 6gt
-noremap <leader>7 7gt
-noremap <leader>8 8gt
-noremap <leader>9 9gt
-
-noremap <leader>0 :tablast<cr>
-nnoremap <leader>x :tabclose<Cr>
-
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
-
 let g:coc_global_extensions = ['coc-pairs', 'coc-prettier',  'coc-tsserver', 'coc-angular',  'coc-json']
 
 if isdirectory('./node_modules') && isdirectory('./node_modules/eslint')
@@ -214,120 +145,14 @@ set updatetime=300
 set shortmess+=c
 
 
-inoremap <silent><expr> <TAB>
-      \ pumvisible() ? "\<C-n>" :
-      \ CheckBackspace() ? "\<TAB>" :
-      \ coc#refresh()
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
-
-
 " Use <c-space> to trigger completion.
-if has('nvim')
-  inoremap <silent><expr> <c-space> coc#refresh()
-else
-  inoremap <silent><expr> <c-@> coc#refresh()
-endif
-
 
 function! CheckBackspace() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-nmap <silent> <leader>G <Plug>(coc-diagnostic-prev)
-nmap <silent> <leader>g <Plug>(coc-diagnostic-next)
-
-" CoC extensions
-
-" Add CoC Prettier if prettier is installed
-"if isdirectory('./node_modules') && isdirectory('./node_modules/prettier')
-"  let g:coc_global_extensions += ['coc-prettier']
-"endif
-
-" Add CoC ESLint if ESLint is installed
-
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
-" Remap keys for applying codeAction to the current line.
-nmap <leader>ac  <Plug>(coc-codeaction)
-" Apply AutoFix to problem on the current line.
-nmap <leader>qf  <Plug>(coc-fix-current)
-
-" TODO :: Use some Unified Language Server (LSP)
-" Goal: Work on differet languages
-nmap <F2> <Plug>(coc-rename)
-
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
-
-nmap <silent> ga <Plug>(coc-codeaction)
-
-nmap <silent> ge <Plug>(coc-diagnostic-next)
-nmap <silent> gE <Plug>(coc-diagnostic-prev)
-
-nmap <silent> <leader>aa :call CocAction('runCommand', 'angular.goToComponentWithTemplateFile')<CR>
-nmap <silent> <leader>at :call CocAction('runCommand', 'angular.goToTemplateForComponent')<CR>
-
-
-" Map function and class text objects
-" NOTE: Requires 'textDocument.documentSymbol' support from the language server.
-xmap if <Plug>(coc-funcobj-i)
-omap if <Plug>(coc-funcobj-i)
-xmap af <Plug>(coc-funcobj-a)
-omap af <Plug>(coc-funcobj-a)
-xmap ic <Plug>(coc-classobj-i)
-omap ic <Plug>(coc-classobj-i)
-xmap ac <Plug>(coc-classobj-a)
-omap ac <Plug>(coc-classobj-a)
-
-
-" Use K to show documentation in preview window.
-nnoremap <silent> K :call ShowDocumentation()<CR>
-
-function! ShowDocumentation()
-  if CocAction('hasProvider', 'hover')
-    call CocActionAsync('doHover')
-  else
-    call feedkeys('K', 'in')
-  endif
-endfunction
-
-nmap gp :tabp<enter>
-nmap gn :tabn<enter>
-
-
-" Map function and class text objects
-" NOTE: Requires 'textDocument.documentSymbol' support from the language server.
-xmap if <Plug>(coc-funcobj-i)
-omap if <Plug>(coc-funcobj-i)
-xmap af <Plug>(coc-funcobj-a)
-omap af <Plug>(coc-funcobj-a)
-xmap ic <Plug>(coc-classobj-i)
-omap ic <Plug>(coc-classobj-i)
-xmap ac <Plug>(coc-classobj-a)
-omap ac <Plug>(coc-classobj-a)
-" nmap <up> <Nop>
-" nmap <down> <Nop>
-" nmap <left> <Nop>
-" nmap <right> <Nop>
-
-" Format
-" nmap <leader>f   :CocCommand prettier.formatFile<CR>
-
-" nnoremap <leader>ff <cmd>Telescope find_files<cr>
-" nnoremap <leader>e <cmd>lua require('telescope.builtin').git_files()<cr>
-
-noremap <leader>e :Telescope find_files<cr>
-nnoremap <leader>fe <cmd>Telescope find_files<cr>
-nnoremap <leader>ff <cmd>Telescope live_grep<cr>
-nnoremap <leader>fb <cmd>Telescope buffers<cr>
-nnoremap <leader>fh <cmd>Telescope help_tags<cr>
-
-
-" Remove annoying
-noremap J <nop>
-" noremap K <nop>
 
 " This greps
 augroup THE_PRIMEAGEN
@@ -340,33 +165,10 @@ let g:user_emmet_mode='n'
 let g:vim_vue_plugin_load_full_syntax = 1
 let g:user_emmet_install_global = 1
 let g:user_emmet_leader_key = ','
-autocmd FileType html,css,vue EmmetInstall
-let g:vim_vue_plugin_config = {
-      \'syntax': {
-      \   'template': ['html'],
-      \   'script': ['javascript', 'typescript', ],
-      \   'style': ['css', 'scss', 'sass', 'less', ],
-      \   'i18n': ['json'],
-      \   'route': 'json',
-      \},
-      \'full_syntax': ['json'],
-      \'initial_indent': ['i18n', 'i18n.json', 'yaml'],
-      \'attribute': 1,
-      \'keyword': 1,
-      \'foldexpr': 1,
-      \'debug': 0,
-      \}
 
-vmap <leader>cc :<C-U>call NERDComment('x', 'toggle')<CR>
-nmap <leader>cc V<leader>cc
+autocmd FileType html,css,vue EmmetInstall
 
 let g:NERDSpaceDelims = 2
-
-nnoremap <leader>nf :NERDTreeFind<CR>
-nnoremap <leader>n :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
 
 let NERDTreeShowLineNumbers=1
 autocmd FileType nerdtree setlocal relativenumber
@@ -384,3 +186,4 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ 'Clean'     :'✔︎',
                 \ 'Unknown'   :'?',
                 \ }
+
