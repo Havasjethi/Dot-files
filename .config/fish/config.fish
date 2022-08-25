@@ -35,7 +35,7 @@ alias clip="xsel -b"
 alias ripgrep="rg"
 
 alias startup="~/bin/script_runner.sh ~/bin/startup"
-alias shutdown="~/bin/script_runner.sh ~/bin/shutdown"
+alias shutdown="~/bin/script_runner.sh ~/bin/shutdown 'shutdown now'"
 
 abbr gco 'git commit -m'
 abbr gch 'git checkout'
