@@ -7,7 +7,6 @@ set --path --append PATH ~/.cargo/bin
 set --path --append PATH ~/Documents/bash
 set --path --append PATH /opt/docker-compose-bin
 
-
 set JAVA_HOME /opt/jdk/
 set GRADLE_HOME /opt/gradle-7.4.2
 set EDITOR nvim
@@ -35,7 +34,6 @@ alias todo='vim ~/todo'
 alias clip="xsel -b"
 alias ripgrep="rg"
 
-alias shutdown="~/bin/script_runner.sh ~/bin/shutdown 'shutdown now'"
 alias startup="~/bin/script_runner.sh ~/bin/startup"
 
 abbr gco 'git commit -m'

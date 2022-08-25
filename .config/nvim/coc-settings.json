@@ -1,6 +1,6 @@
 {
-  "java.jdt.ls.vmargs": "-javaagent:/home/jozsef/Documents/apps/lombok.jar -Xbootclasspath/a:/home/jozsef/Documents/apps/lombok.jar",
   "suggest.noselect": false,
+  "sql.database": "postgresql",
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
     "typescript",
@@ -12,7 +12,6 @@
     "html",
     "markdown"
   ],
-  "sql.database": "postgresql",
   "languageserver": {
     "angular": {
       "command": "",
@@ -20,7 +19,6 @@
       "filetypes": ["*.ts", "*component.html", "*.scss"]
     }
   },
-  "cSpell.userWords": [
-    "entrypoint"
-  ]
+  "cSpell.userWords": ["entrypoint"],
+  "typescript.suggest.completeFunctionCalls": true
 }
