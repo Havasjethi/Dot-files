@@ -16,7 +16,16 @@
     "angular": {
       "command": "",
       "rootPatterns": ["angular.json", "frontend/angular.json"],
-      "filetypes": ["*.ts", "*component.html", "*.scss"]
+      "filetypes": [
+        "html",
+        "typescript",
+        "css",
+        "scss",
+        "sass",
+        "*.ts",
+        "*component.html",
+        "*.scss"
+      ]
     }
   },
   "cSpell.userWords": ["entrypoint"],
