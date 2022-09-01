@@ -1,7 +1,7 @@
 set --path --append PATH /opt/nodejs/node/bin
 set --path --append PATH /opt/zstd-1.5.2/programs
 set --path --append PATH /opt/jdk
-set --path --append PATH /opt/gradle-7.4.2
+set --path --append PATH /opt/gradle-7.4.2/bin
 set --path --append PATH /opt/node/node_bin
 set --path --append PATH ~/.cargo/bin
 set --path --append PATH ~/Documents/bash
@@ -22,6 +22,7 @@ alias vrc='nvim ~/.vimrc'
 alias irc='nvim ~/.ideavimrc'
 alias brc="nvim ~/.bashrc"
 alias reload='source ~/.config/fish/config.fish'
+# docker ps --format='{"id": "{{.ID}}", "name": "{{.Names}}", "ports": "{{.Ports}}" }' | jq
 
 alias l 'exa -l'
 alias ls exa

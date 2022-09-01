@@ -28,6 +28,9 @@
       ]
     }
   },
-  "cSpell.userWords": ["entrypoint"],
+  "cSpell.userWords": [
+    "entrypoint",
+    "keycloak"
+  ],
   "typescript.suggest.completeFunctionCalls": true
 }
