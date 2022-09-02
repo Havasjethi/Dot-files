@@ -38,8 +38,15 @@ alias ripgrep="rg"
 alias startup="~/bin/script_runner.sh ~/bin/startup"
 alias shutdown="~/bin/script_runner.sh ~/bin/shutdown 'shutdown now'"
 
+# Git stuff
+# alias 'git pull' 'git pull --no-ff'
 abbr gco 'git commit -m'
-abbr gch 'git checkout'
+abbr gic 'git commit -m'
+abbr gih 'git checkout'
+abbr gh 'git checkout'
+abbr gip 'git pull --no-ff'
+abbr gis 'git status'
+
 
 # /* source <(ng completion script) */
 # /* . "$HOME/.cargo/env" */

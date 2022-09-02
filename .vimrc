@@ -31,20 +31,13 @@ Plug 'tpope/vim-surround'
 Plug 'preservim/nerdtree'
 
 " General
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'scrooloose/nerdcommenter'
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-surround'
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
 "Language
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 
-Plug 'nvim-lua/plenary.nvim'
 
 " Useless Fancy
 Plug 'vim-airline/vim-airline'
@@ -52,10 +45,6 @@ Plug 'luochen1990/rainbow'
 
 " This Web
 Plug 'mattn/emmet-vim'
-
-" SPA stuff
-Plug 'leafOfTree/vim-vue-plugin' " Vue
-Plug 'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
 
 " Ale
 Plug 'dense-analysis/ale'
@@ -68,7 +57,6 @@ Plug 'yaegassy/coc-nginx', {'do': 'yarn install --frozen-lockfile'}
 " Untested
 Plug 'liuchengxu/vim-which-key'
 " Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
-" Plug 'preservim/nerdcommenter'
 
 call plug#end()
 
@@ -167,6 +155,8 @@ let g:vim_vue_plugin_load_full_syntax = 1
 let g:user_emmet_install_global = 1
 let g:user_emmet_leader_key = ','
 
+let g:NERDCreateDefaultMappings = 0
+
 autocmd FileType html,css,vue EmmetInstall
 let g:NERDSpaceDelims = 2
 
@@ -190,5 +180,3 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
 
 nnoremap <expr> k (v:count > 1 ? "m'" . v:count : '') . 'k'
 nnoremap <expr> j (v:count > 1 ? "m'" . v:count : '') . 'j'
-
-vmap <C-a> <esc>ggVG
