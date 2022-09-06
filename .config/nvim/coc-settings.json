@@ -29,8 +29,12 @@
     }
   },
   "cSpell.userWords": [
+    "bitnami",
     "entrypoint",
-    "keycloak"
+    "keycloak",
+    "pipefail",
+    "rabbitmq",
+    "rabbitmqctl"
   ],
   "typescript.suggest.completeFunctionCalls": true
 }
