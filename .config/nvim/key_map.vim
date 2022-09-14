@@ -16,8 +16,8 @@ map <C-@> <nul>
 
 "	Insert mode
 imap <C-s> <esc>:wall<enter>a
-imap <C-d> <esc>"_yypi
-imap <C-d> <esc>"cyy"cpi
+" imap <C-d> <esc>"cyy"cpi
+imap <C-d> <esc>"yyy"yp
 imap <ESC>[C <esc>ea
 imap <ESC>[D <esc>bi
 " <C-o>pa
@@ -131,5 +131,5 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
 vmap <leader>cc :<C-U>call NERDComment('x', 'toggle')<CR>
-nmap <leader>cc :<C-U>call NERDComment('x', 'toggle')<CR>
+nmap <leader>cc V<leader>cc
 

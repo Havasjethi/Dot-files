@@ -4,4 +4,4 @@ let &packpath = &runtimepath
 source ~/.vimrc
 :lua require('tree_sitter')
 
-source key_map.vim
+source ~/.config/nvim/key_map.vim

@@ -19,6 +19,7 @@ alias vim nvim
 alias svim='nvim -u ~/.SpaceVim/vimrc'
 alias frc='nvim ~/.config/fish/config.fish'
 alias vrc='nvim ~/.vimrc'
+alias vkeys='nvim ~/.config/nvim/key_map.vim'
 alias irc='nvim ~/.ideavimrc'
 alias brc="nvim ~/.bashrc"
 alias reload='source ~/.config/fish/config.fish'
@@ -32,6 +33,8 @@ alias tree='exa -T -L 3'
 alias dps='docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Ports}}\t{{.Status}}"'
 alias log='vim ~/Documents/logs/(date +%m-%d)'
 alias todo='vim ~/todo'
+alias notes='mkdir -p ~/Documents/notes/(basename (git rev-parse --show-toplevel)); vim ~/Documents/notes/(basename (git rev-parse --show-toplevel))/(git branch --show-current)'
+alias allnotes='vim ~/Documents/notes/(basename (git rev-parse --show-toplevel))/'
 alias clip="xsel -b"
 alias ripgrep="rg"
 

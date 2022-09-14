@@ -25,7 +25,7 @@ set incsearch
 " nmap R :%s/com.frontendart/${package}.${rootArtifactId}/g<enter>:%s/TemplateApplication/${appName}/g<enter>
 
 
-imap <C-d> <esc>yypi
+imap <C-d> <esc>"yyy"yp
 imap <C-v> <esc>pa
 
 noremap <leader>1 1gt
@@ -34,7 +34,8 @@ noremap <leader>3 3gt
 noremap <leader>4 4gt
 noremap <leader>5 5gt
 noremap <leader>6 6gt
-" vmap p "_dP
+
+vmap p "_dP
 
 " Plugins
 
@@ -56,6 +57,7 @@ noremap <C-h> :action PreviousTab<CR>
 noremap <C-l> :action NextTab<CR>
 noremap <A-h> :action PreviousTab<CR>
 noremap <A-l> :action NextTab<CR>
+noremap <A-w> :action CloseContent<CR>
 
 " nnoremap <C-o> :action Back<CR>
 " nnoremap <C-i> :action Forward<CR>
