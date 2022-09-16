@@ -85,3 +85,5 @@ noremap é :action ShowErrorDescription<cr>
 
 nmap <leader>dd i<C-d><esc>k<leader>cc
 
+nmap <leader>sa ggVG
+
