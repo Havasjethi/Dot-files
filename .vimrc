@@ -112,6 +112,9 @@ set expandtab
 set foldlevelstart=2
 syntax enable
 
+" New tabs will be opened right ?to the current
+set splitright
+
 " ThePrimeagen
 set hidden
 set scrolloff=8
