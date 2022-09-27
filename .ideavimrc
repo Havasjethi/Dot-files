@@ -87,3 +87,6 @@ nmap <leader>dd i<C-d><esc>k<leader>cc
 
 nmap <leader>sa ggVG
 
+nmap <leader>rr :action RunClass<cr>
+nmap <leader>rd :action DebugClass<cr>
+
