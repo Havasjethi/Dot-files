@@ -133,3 +133,8 @@ nnoremap <C-f> :NERDTreeFind<CR>
 vmap <leader>cc :<C-U>call NERDComment('x', 'toggle')<CR>
 nmap <leader>cc V<leader>cc
 
+nnoremap <expr> k (v:count > 1 ? "m'" . v:count : '') . 'k'
+nnoremap <expr> j (v:count > 1 ? "m'" . v:count : '') . 'j'
+nmap í z
+
+nmap <leader>sa ggVG
