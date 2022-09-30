@@ -1,6 +1,7 @@
 {
   "suggest.noselect": false,
   "sql.database": "postgresql",
+  "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication --enable-preview -javaagent:/home/jozsef/bin/lombok.jar",
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
     "typescript",
