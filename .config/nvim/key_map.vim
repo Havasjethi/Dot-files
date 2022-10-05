@@ -138,3 +138,7 @@ nnoremap <expr> j (v:count > 1 ? "m'" . v:count : '') . 'j'
 nmap í z
 
 nmap <leader>sa ggVG
+
+nmap <A-s> <C-s>
+nmap <A-w> <A-w>
+

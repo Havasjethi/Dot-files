@@ -25,6 +25,7 @@ alias brc="nvim ~/.bashrc"
 alias reload='source ~/.config/fish/config.fish'
 # docker ps --format='{"id": "{{.ID}}", "name": "{{.Names}}", "ports": "{{.Ports}}" }' | jq
 
+alias reload='source ~/.config/fish/config.fish'
 alias l 'exa -l'
 alias ls exa
 alias ll 'exa -la'
