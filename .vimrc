@@ -180,3 +180,5 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ 'Clean'     :'✔︎',
                 \ 'Unknown'   :'?',
                 \ }
+
+let g:NERDCustomDelimiters = { 'unix': { 'left': '#' } }
