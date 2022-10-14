@@ -6,6 +6,7 @@ set --path --append PATH /opt/node/node_bin
 set --path --append PATH ~/.cargo/bin
 set --path --append PATH ~/Documents/bash
 set --path --append PATH /opt/docker-compose-bin
+set --path --append PATH /home/jozsef/.deno/bin
 
 set JAVA_HOME /opt/jdk/
 set GRADLE_HOME /opt/gradle-7.4.2
