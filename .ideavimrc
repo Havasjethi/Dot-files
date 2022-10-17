@@ -2,6 +2,10 @@ set surround
 set multiple-cursors
 set commentary
 set NERDTree
+Plug 'machakann/vim-highlightedyank'
+
+let g:highlightedyank_highlight_duration = "200"
+let g:highlightedyank_highlight_color = "rgba(160, 160, 160, 155)"
 
 set number
 set relativenumber
