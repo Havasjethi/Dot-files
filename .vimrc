@@ -117,6 +117,7 @@ syntax enable
 set splitright
 
 " ThePrimeagen
+set hidden
 set scrolloff=8
 set colorcolumn=80
 
