@@ -39,7 +39,6 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 
-
 " Useless Fancy
 Plug 'vim-airline/vim-airline'
 Plug 'luochen1990/rainbow'
@@ -192,3 +191,11 @@ inoremap <silent><expr> <TAB>
 inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
 
 nmap <leader>sa ggVG
+" nmap <leader>rr :source ~/.vimrc<cr>
+
+let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
+let g:airline#extensions#tabline#left_alt_sep = '|'
+" let g:airline#extensions#tabline#enabled = 1
+
+let g:rainbow_active = 1
+
