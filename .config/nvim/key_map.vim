@@ -16,8 +16,10 @@ map <C-@> <nul>
 
 "	Insert mode
 imap <C-s> <esc>:wall<enter>a
-imap <C-d> <esc>"_yypi
-imap <C-d> <esc>"cyy"cpi
+
+imap <C-d> <esc>"yyy"yp
+
+imap <ESC>[C <esc>ea
 imap <ESC>[C <esc>ea
 imap <ESC>[D <esc>bi
 " <C-o>pa
@@ -42,6 +44,7 @@ nmap <A-Up> yyp:
 "	Visual
 vmap <C-x> "+d
 vmap p "_dP
+
 " Easier movement between split windows CTRL + {h, j, k, l}
 nnoremap <c-h> <c-w>h
 nnoremap <c-j> <c-w>j

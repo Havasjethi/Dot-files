@@ -74,3 +74,5 @@ noremap <leader>e :action GotoFile<CR>
 
 noremap <leader>6 :action CommentByLineComment<CR>
 noremap <leader>cc :action CommentByLineComment<CR>
+
+vmap p "_dP

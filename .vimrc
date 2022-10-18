@@ -12,12 +12,13 @@ set wildignore+=**/ios/*
 set wildignore+=**/.git/*
 
 call plug#begin()
-" Theme
+" Themes
 Plug 'morhetz/gruvbox'
 Plug 'rebelot/kanagawa.nvim'
 Plug 'joshdick/onedark.vim'
 Plug 'amadeus/vim-evokai'
 Plug 'dracula/vim'
+Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 
 " General
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
@@ -125,7 +126,6 @@ set foldlevelstart=2
 syntax enable
 
 " ThePrimeagen
-set hidden
 set scrolloff=8
 set colorcolumn=80
 
@@ -186,4 +186,14 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ 'Clean'     :'✔︎',
                 \ 'Unknown'   :'?',
                 \ }
+
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+inoremap <silent><expr> <TAB>
+      \ coc#pum#visible() ? coc#pum#next(1) :
+      \ CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
+
+nmap <leader>sa ggVG
 

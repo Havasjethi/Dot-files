@@ -1,11 +1,12 @@
 {
   "suggest.noselect": false,
+
+  "prettier.enable": true,
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
     "typescript",
     "json",
     "rust",
-    "typescript.tsc",
     "css",
     "html",
     "markdown",
@@ -20,5 +21,14 @@
   },
   "rust-analyzer.inlayHints.chainingHintsSeparator": " ",
   "typescript.suggest.completeFunctionCalls": true,
-  "sql.database": "postgresql"
+  "sql.database": "postgresql",
+  "cSpell.userWords": [
+    "HAVAS",
+    "Timestep",
+    "Vsync",
+    "copysign",
+    "shellexpand",
+    "typeorm",
+    "workdir"
+  ]
 }
