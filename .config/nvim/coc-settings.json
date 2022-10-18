@@ -1,13 +1,14 @@
 {
   "suggest.noselect": false,
-  "sql.database": "postgresql",
   "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication --enable-preview -javaagent:/home/jozsef/bin/lombok.jar",
+  "prettier.enable": true,
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
     "typescript",
+    "typescript.tsc",
     "json",
     "java",
-    "typescript.tsc",
+    "rust",
     "css",
     "scss",
     "html",
@@ -36,7 +37,16 @@
     "keycloak",
     "pipefail",
     "rabbitmq",
-    "rabbitmqctl"
+    "rabbitmqctl",
+    "HAVAS",
+    "Timestep",
+    "Vsync",
+    "copysign",
+    "shellexpand",
+    "typeorm",
+    "workdir"
   ],
-  "typescript.suggest.completeFunctionCalls": true
+  "typescript.suggest.completeFunctionCalls": true,
+  "rust-analyzer.inlayHints.chainingHintsSeparator": " ",
+  "sql.database": "postgresql"
 }
