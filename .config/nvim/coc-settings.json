@@ -1,7 +1,7 @@
 {
   "suggest.noselect": false,
-  "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication --enable-preview -javaagent:/home/jozsef/bin/lombok.jar",
   "prettier.enable": true,
+  "java.jdt.ls.vmargs": "-javaagent:/opt/lombok/lombok.jar -Xbootclasspath/a:/opt/lombok/lombok.jar",
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
     "typescript",
@@ -32,16 +32,20 @@
   },
   "cSpell.userWords": [
     "Formattable",
+    "HAVAS",
+    "Timestep",
+    "Valami",
+    "Vsync",
     "bitnami",
+    "copysign",
+    "egyeb",
     "entrypoint",
     "keycloak",
+    "lomok",
     "pipefail",
     "rabbitmq",
     "rabbitmqctl",
-    "HAVAS",
-    "Timestep",
-    "Vsync",
-    "copysign",
+    "salom",
     "shellexpand",
     "typeorm",
     "workdir"
