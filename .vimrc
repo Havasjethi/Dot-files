@@ -182,8 +182,9 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ }
 
 let g:NERDCustomDelimiters = { 'unix': { 'left': '#' } }
-inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
-                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+nmap <leader><leader>r :source~/.vimrc<cr>
+" inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+                              " \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 inoremap <silent><expr> <TAB>
       \ coc#pum#visible() ? coc#pum#next(1) :
       \ CheckBackspace() ? "\<Tab>" :
