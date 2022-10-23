@@ -8,6 +8,7 @@ set --path --append PATH ~/Documents/bash
 set --path --append PATH /opt/docker-compose-bin
 set --path --append PATH /home/jozsef/.deno/bin
 set --path --append PATH /opt/lombok/lombok.jar
+set --path --append PATH /opt/scala/scala3-3.2.0/bin
 
 set JAVA_HOME /opt/jdk/
 set GRADLE_HOME /opt/gradle-7.4.2
