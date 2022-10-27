@@ -43,7 +43,7 @@ nmap <A-Up> yyp:
 
 "	Visual
 vmap <C-x> "+d
-vmap p "_dp
+vmap p "_dP
 
 " Easier movement between split windows CTRL + {h, j, k, l}
 nnoremap <c-h> <c-w>h
