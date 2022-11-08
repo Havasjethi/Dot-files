@@ -146,3 +146,5 @@ nmap <A-s> <C-s>
 nmap <A-w> <A-w>
 
 vnoremap <leader>r "hy:%s/<C-r>h//gc<left><left><left>
+
+tnoremap <Esc> <C-\><C-n>
