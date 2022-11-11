@@ -6,7 +6,7 @@ inoremap <silent><expr> <TAB>
       \ coc#refresh()
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
-" Remove annoying
+" Remove annoying operations
 " noremap J <nop>
 " noremap K <nop>
 
@@ -65,8 +65,8 @@ noremap <leader>0 :tablast<cr>
 nnoremap <leader>x :tabclose<Cr>
 
 
-nmap gp :tabp<enter>
-nmap gn :tabn<enter>
+" nmap gp :tabp<enter>
+" nmap gn :tabn<enter>
 
 if has('nvim')
   inoremap <silent><expr> <c-space> coc#refresh()
@@ -128,7 +128,7 @@ nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
 nnoremap <leader>nf :NERDTreeFind<CR>
-nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <leader>nn :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>

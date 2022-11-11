@@ -97,3 +97,6 @@ nmap <leader>rd :action DebugClass<cr>
 nmap <leader>l :action ToggleLineBreakpoint<cr>
 nmap í z
 nmap <leader>zz :action ToggleZenMode<cr>
+
+nmap Y y$
+
