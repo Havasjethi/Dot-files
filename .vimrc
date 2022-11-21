@@ -76,7 +76,7 @@ set cursorline
 set linebreak
 
 " This might be wrong:
-set wrap
+set nowrap
 
 " WIM
 " set autoread
