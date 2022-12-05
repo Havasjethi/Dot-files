@@ -6,6 +6,13 @@ inoremap <silent><expr> <TAB>
       \ coc#refresh()
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? "\<C-n>" :
+      \ CheckBackspace() ? "\<TAB>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+
+
 " Remove annoying
 " noremap J <nop>
 " noremap K <nop>
@@ -133,6 +140,8 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
+" 'NERDCommentEmptyLines'
+
 vmap <leader>cc :<C-U>call NERDComment('x', 'toggle')<CR>
 nmap <leader>cc V<leader>cc
 
@@ -145,3 +154,5 @@ nmap <leader>sa ggVG
 nmap <A-s> <C-s>
 nmap <A-w> <A-w>
 
+nmap <A-h> :tabp<cr>
+nmap <A-l> :tabn<cr>
