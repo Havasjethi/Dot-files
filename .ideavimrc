@@ -87,16 +87,29 @@ noremap é :action ShowErrorDescription<cr>
 " nnoremap <expr> k (v:count > 1 ? "m'" . v:count : '') . 'k'
 " nnoremap <expr> j (v:count > 1 ? "m'" . v:count : '') . 'j'
 
-nmap <leader>dd i<C-d><esc>k<leader>cc
+i<C-d><esc>k<leader>cc
 
 nmap <leader>sa ggVG
 
-nmap <leader>rr :action RunClass<cr>
+ion RunClass<cr>
 nmap <leader>rd :action DebugClass<cr>
 
-nmap <leader>l :action ToggleLineBreakpoint<cr>
-nmap í z
+ion Togglemap í z
 nmap <leader>zz :action ToggleZenMode<cr>
 
 nmap Y y$
+
+nmap ci( f(vi(c
+nmap ci) f(vi(c
+nmap ci[ f[vi[c
+nmap ci] f[vi[c
+nmap ci{ f{vi{c
+nmap ci} f{vi{c
+
+nmap di( f(vi(d
+nmap di) f(vi(d
+nmap di[ f[vi[d
+nmap di] f[vi[d
+nmap di{ f{vi{d
+nmap di} f{vi{d
 
