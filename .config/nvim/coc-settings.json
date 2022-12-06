@@ -12,28 +12,15 @@
     "css",
     "scss",
     "html",
+    "vue",
     "markdown"
   ],
-  "languageserver": {
-    "angular": {
-      "command": "",
-      "rootPatterns": ["angular.json", "frontend/angular.json"],
-      "filetypes": [
-        "html",
-        "typescript",
-        "css",
-        "scss",
-        "sass",
-        "*.ts",
-        "*component.html",
-        "*.scss"
-      ]
-    }
-  },
   "cSpell.userWords": [
+    "AMQP",
     "Formattable",
     "HAVAS",
     "Timestep",
+    "Vala",
     "Valami",
     "Vsync",
     "bitnami",
@@ -42,15 +29,20 @@
     "entrypoint",
     "keycloak",
     "lomok",
+    "openapi",
     "pipefail",
     "rabbitmq",
     "rabbitmqctl",
     "salom",
     "shellexpand",
     "typeorm",
+    "userinfo",
     "workdir"
   ],
   "typescript.suggest.completeFunctionCalls": true,
   "rust-analyzer.inlayHints.chainingHintsSeparator": " ",
-  "sql.database": "postgresql"
+  "sql.database": "postgresql",
+  "prettier.printWidth": 100,
+  "prettier.semi": true,
+  "prettier.singleQuote": true
 }

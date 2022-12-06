@@ -55,7 +55,7 @@ Plug 'yaegassy/coc-nginx', {'do': 'yarn install --frozen-lockfile'}
 
 " Surrounding content with '"([{}])"' && Replace <html_tags></html_tags>
 " Untested
-Plug 'liuchengxu/vim-which-key'
+" Plug 'liuchengxu/vim-which-key' " Documentation not created by automatically
 " Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
 
 call plug#end()
@@ -81,14 +81,12 @@ set nowrap
 " WIM
 " set autoread
 
-
 filetype on
 filetype plugin on
 filetype indent on
 set smartindent
 
 set hlsearch
-
 
 " Disable backups and swap files
 set nobackup
@@ -123,7 +121,7 @@ set colorcolumn=80
 " nmap <leader>cc V<leader>cc
 " vnoremap <leader>cc :<C-U>call NERDComment('x', 'toggle')<cr>
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
-let g:coc_global_extensions = ['coc-pairs', 'coc-prettier',  'coc-tsserver', 'coc-angular',  'coc-json']
+let g:coc_global_extensions = ['coc-pairs', 'coc-prettier',  'coc-tsserver', 'coc-json']
 
 if isdirectory('./node_modules') && isdirectory('./node_modules/eslint')
   let g:coc_global_extensions += ['coc-eslint']
@@ -136,7 +134,6 @@ set nowritebackup
 set cmdheight=2
 set updatetime=300
 set shortmess+=c
-
 
 " Use <c-space> to trigger completion.
 
@@ -159,6 +156,7 @@ let g:user_emmet_install_global = 1
 let g:user_emmet_leader_key = ','
 
 let g:NERDCreateDefaultMappings = 0
+let g:NERDCommentEmptyLines = 1
 
 autocmd FileType html,css,vue EmmetInstall
 let g:NERDSpaceDelims = 2
@@ -183,13 +181,14 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
 
 let g:NERDCustomDelimiters = { 'unix': { 'left': '#' } }
 nmap <leader><leader>r :source~/.vimrc<cr>
-" inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
-                              " \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 inoremap <silent><expr> <TAB>
       \ coc#pum#visible() ? coc#pum#next(1) :
       \ CheckBackspace() ? "\<Tab>" :
       \ coc#refresh()
 inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
+
 
 nmap <leader>sa ggVG
 " nmap <leader>rr :source ~/.vimrc<cr>

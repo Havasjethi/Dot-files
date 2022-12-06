@@ -1,12 +1,13 @@
 let mapleader = " "
 
+" Remove annoying operations
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
       \ CheckBackspace() ? "\<TAB>" :
       \ coc#refresh()
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
-" Remove annoying operations
+
 " noremap J <nop>
 " noremap K <nop>
 
@@ -134,6 +135,8 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
+" 'NERDCommentEmptyLines'
+
 vmap <leader>cc :<C-U>call NERDComment('x', 'toggle')<CR>
 nmap <leader>cc V<leader>cc
 
@@ -149,3 +152,5 @@ nmap <A-w> <A-w>
 vnoremap <leader>r "hy:%s/<C-r>h//gc<left><left><left>
 
 tnoremap <Esc> <C-\><C-n>
+nmap <A-h> :tabp<cr>
+nmap <A-l> :tabn<cr>
