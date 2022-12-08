@@ -1,6 +1,5 @@
 let mapleader = " "
 
-" Remove annoying operations
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
       \ CheckBackspace() ? "\<TAB>" :
@@ -8,11 +7,12 @@ inoremap <silent><expr> <TAB>
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
 
+" Remove annoying operations
 " noremap J <nop>
 " noremap K <nop>
 
 
-" Globlal mode
+" Global mode
 map <C-@> <nul>
 
 "	Insert mode
@@ -37,7 +37,7 @@ nmap <C-c> "+yy
 nmap <ESC>[D b
 nmap <ESC>[C e
 
-nmap <A-Up> yyp:
+" nmap <A-Up> yyp:
 
 " (--Selec--) Copy all
 " nmap <C-a> ggVGy<C-O><C-O>
