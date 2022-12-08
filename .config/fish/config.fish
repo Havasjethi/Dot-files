@@ -46,8 +46,7 @@ alias ripgrep="rg"
 alias rabbit_management 'xdg-open (deno run --allow-run ~/bin/some.ts)'
 
 alias startup="~/bin/script_runner.sh ~/bin/startup"
-# alias shutdown="~/bin/script_runner.sh ~/bin/shutdown 'shutdown now'"
-alias shutdown="shutdown now"
+alias shutdown="~/bin/script_runner.sh ~/bin/shutdown 'shutdown now'"
 
 # Git stuff
 # alias 'git pull' 'git pull --no-ff'
@@ -59,5 +58,3 @@ abbr gip 'git pull --no-ff'
 abbr gis 'git status'
 
 # /* source <(ng completion script) */
-# /* . "$HOME/.cargo/env" */
-

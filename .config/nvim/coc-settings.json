@@ -30,6 +30,7 @@
     "keycloak",
     "lomok",
     "openapi",
+    "paho",
     "pipefail",
     "rabbitmq",
     "rabbitmqctl",

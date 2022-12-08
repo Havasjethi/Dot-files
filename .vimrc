@@ -199,3 +199,7 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 
 let g:rainbow_active = 1
 
+" let g:ale_linters = ['cspell', 'eslint', 'standard', 'tslint', 'tsserver', 'typecheck', 'xo']
+let g:ale_linters_ignore = ['deno']
+" let g:ale_linters ( )
+
