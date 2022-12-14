@@ -61,7 +61,7 @@ Plug 'yaegassy/coc-nginx', {'do': 'yarn install --frozen-lockfile'}
 call plug#end()
 
 " Set color theme
-autocmd vimenter * ++nested colorscheme gruvbox
+autocmd vimenter * ++nested colorscheme catppuccin-macchiato
 set background=dark
 
 " Some stuff for path
