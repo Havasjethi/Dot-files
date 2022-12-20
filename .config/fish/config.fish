@@ -48,7 +48,7 @@ alias rabbit_management 'xdg-open (deno run --allow-run ~/bin/some.ts)'
 alias startup="~/bin/script_runner.sh ~/bin/startup"
 alias shutdown="~/bin/script_runner.sh ~/bin/shutdown 'shutdown now'"
 
-alias minikube_start=minikube start --cpus 6 --memory 12000
+alias minikube_start='minikube start --cpus 6 --memory 12000'
 
 # Git stuff
 # alias 'git pull' 'git pull --no-ff'

@@ -29,6 +29,7 @@
     "entrypoint",
     "keycloak",
     "lomok",
+    "mqtt",
     "openapi",
     "paho",
     "pipefail",

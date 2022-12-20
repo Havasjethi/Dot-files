@@ -16,14 +16,16 @@ inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 map <C-@> <nul>
 
 "	Insert mode
-imap <C-s> <esc>:wall<enter>a
-" imap <C-d> <esc>"cyy"cpi
+" imap <C-s> <esc>:wall<enter>a
+imap <C-s> <esc>:wall<enter>
+
+" Duplicate
 imap <C-d> <esc>"yyy"yp
 
 imap <ESC>[C <esc>ea
 imap <ESC>[C <esc>ea
 imap <ESC>[D <esc>bi
-" <C-o>pa
+
 imap <C-v> <esc>pa
 " imap <C-x> <esc>"+ddi
 " imap <C-Enter> <esc>oi
@@ -37,14 +39,13 @@ nmap <C-c> "+yy
 nmap <ESC>[D b
 nmap <ESC>[C e
 
-nmap <A-Up> yyp:
-
-" (--Selec--) Copy all
-" nmap <C-a> ggVGy<C-O><C-O>
+nmap <A-Up> yyp
+" nmap <A-k> yyp
 
 "	Visual
 vmap <C-x> "+d
 vmap p "_dP
+
 
 " Easier movement between split windows CTRL + {h, j, k, l}
 nnoremap <c-h> <c-w>h
@@ -64,10 +65,6 @@ noremap <leader>9 9gt
 
 noremap <leader>0 :tablast<cr>
 nnoremap <leader>x :tabclose<Cr>
-
-
-" nmap gp :tabp<enter>
-" nmap gn :tabn<enter>
 
 if has('nvim')
   inoremap <silent><expr> <c-space> coc#refresh()
@@ -92,7 +89,6 @@ nmap <silent> <leader>G <Plug>(coc-diagnostic-prev)
 nmap <silent> <leader>g <Plug>(coc-diagnostic-next)
 nmap <silent> <leader>aa :call CocAction('runCommand', 'angular.goToComponentWithTemplateFile')<CR>
 nmap <silent> <leader>at :call CocAction('runCommand', 'angular.goToTemplateForComponent')<CR>
-
 
 " Map function and class text objects
 " NOTE: Requires 'textDocument.documentSymbol' support from the language server.
@@ -154,3 +150,4 @@ vnoremap <leader>r "hy:%s/<C-r>h//gc<left><left><left>
 tnoremap <Esc> <C-\><C-n>
 nmap <A-h> :tabp<cr>
 nmap <A-l> :tabn<cr>
+
