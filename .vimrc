@@ -30,6 +30,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'preservim/nerdtree'
+Plug 'airblade/vim-gitgutter'
 
 " General
 Plug 'nvim-lua/plenary.nvim'
