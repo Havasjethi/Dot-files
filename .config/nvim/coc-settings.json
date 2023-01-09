@@ -2,6 +2,7 @@
   "suggest.noselect": false,
   "prettier.enable": true,
   "java.jdt.ls.vmargs": "-javaagent:/opt/lombok/lombok.jar -Xbootclasspath/a:/opt/lombok/lombok.jar",
+  "yaml.customTags": ["!reference sequence"],
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
     "typescript",

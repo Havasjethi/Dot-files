@@ -50,6 +50,12 @@ alias shutdown="~/bin/script_runner.sh ~/bin/shutdown 'shutdown now'"
 
 alias minikube_start='minikube start --cpus 6 --memory 12000'
 
+alias docker_reset='echo y | docker system prune --volumes'
+
+set tn_docker_path /home/jozsef/Documents/Projects/test_nav/tn-3/docker/docker-compose.yaml
+alias tn_containers_up "docker-compose -f $tn_docker_path up"
+alias tn_containers_down "docker-compose -f $tn_docker_path down"
+
 # Git stuff
 # alias 'git pull' 'git pull --no-ff'
 abbr gco 'git commit -m'

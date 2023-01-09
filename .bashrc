@@ -141,5 +141,5 @@ export PATH=/opt/node/node_bin:$PATH
 source <(ng completion script)
 . "$HOME/.cargo/env"
 
-
+export EDITOR=nvim
 
