@@ -56,6 +56,9 @@ set tn_docker_path /home/jozsef/Documents/Projects/test_nav/tn-3/docker/docker-c
 alias tn_containers_up "docker-compose -f $tn_docker_path up"
 alias tn_containers_down "docker-compose -f $tn_docker_path down"
 
+alias tn_hard_reset 'tn_containers_down; docker_reset; tn_containers_up'
+alias tn_soft_reset 'tn_containers_down; tn_containers_up'
+
 # Git stuff
 # alias 'git pull' 'git pull --no-ff'
 abbr gco 'git commit -m'
