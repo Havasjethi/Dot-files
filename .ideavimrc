@@ -106,10 +106,10 @@ nmap ci] f[vi[c
 nmap ci{ f{vi{c
 nmap ci} f{vi{c
 
-nmap di( f(vi(d
+nmap di( F(vi(d
 nmap di) f(vi(d
-nmap di[ f[vi[d
+nmap di[ F[vi[d
 nmap di] f[vi[d
-nmap di{ f{vi{d
+nmap di{ F{vi{d
 nmap di} f{vi{d
 
