@@ -16,7 +16,7 @@ inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 map <C-@> <nul>
 
 "	Insert mode
-imap <C-s> <esc>:wall<enter>a
+imap <C-s> <esc>:wall<enter>
 " imap <C-d> <esc>"cyy"cpi
 imap <C-d> <esc>"yyy"yp
 
@@ -38,9 +38,6 @@ nmap <ESC>[D b
 nmap <ESC>[C e
 
 " nmap <A-Up> yyp:
-
-" (--Selec--) Copy all
-" nmap <C-a> ggVGy<C-O><C-O>
 
 "	Visual
 vmap <C-x> "+d
@@ -145,9 +142,6 @@ nnoremap <expr> j (v:count > 1 ? "m'" . v:count : '') . 'j'
 nmap í z
 
 nmap <leader>sa ggVG
-
-nmap <A-s> <C-s>
-nmap <A-w> <A-w>
 
 vnoremap <leader>r "hy:%s/<C-r>h//gc<left><left><left>
 

@@ -1,10 +1,12 @@
 {
   "suggest.noselect": false,
   "prettier.enable": true,
+  "prettier.prettierPath": "/opt/nodejs/node/lib/node_modules/prettier",
   "java.jdt.ls.vmargs": "-javaagent:/opt/lombok/lombok.jar -Xbootclasspath/a:/opt/lombok/lombok.jar",
   "coc.preferences.formatOnSaveFiletypes": ["*"],
   "cSpell.userWords": [
     "AMQP",
+    "Denops",
     "Formattable",
     "HAVAS",
     "Timestep",

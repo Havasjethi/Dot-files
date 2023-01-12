@@ -1,4 +1,4 @@
-vim.cmd [[
+vim.cmd[[
 
 augroup highlight_yank
     autocmd!
@@ -7,7 +7,7 @@ augroup END
 
 ]]
 
-vim.cmd [[
+vim.cmd[[
 
 
 autocmd vimenter * ++nested colorscheme gruvbox
@@ -66,8 +66,7 @@ set colorcolumn=80
 
 ]]
 
-
-vim.cmd [[
+vim.cmd[[
     augroup THE_PRIMEAGEN
     autocmd!
     " autocmd BufWritePre *.lua Neoformat
@@ -76,7 +75,7 @@ vim.cmd [[
 
 ]]
 
-vim.cmd [[
+vim.cmd[[
 set encoding=utf-8
 
 set nobackup
@@ -86,6 +85,3 @@ set cmdheight=2
 set updatetime=300
 set shortmess+=c
 ]]
-
-
-
