@@ -46,7 +46,6 @@ local function add_command(name, command)
 		id = next_id,
 		command = command,
 	}
-	print(vim.inspect(x))
 	table.insert(available_commands, x)
 	next_id = next_id + 1
 end
@@ -91,7 +90,6 @@ local pick_command = function(opts)
 			actions.select_default:replace(function()
 				actions.close(prompt_bufnr)
 				local selection = action_state.get_selected_entry()
-				print(vim.inspect(selection))
 				execute_command(selection.value.command)
 				last_command_index = selection.index
 			end)
@@ -129,10 +127,6 @@ vim.api.nvim_create_user_command(
 	{}
 )
 
-function log(stmt)
-	print(vim.inspect(stmt))
-end
-
 vim.api.nvim_create_user_command(
 	COMMAND_ADD_COMMAND,
 	function(data)
@@ -149,9 +143,6 @@ vim.api.nvim_create_user_command(
 	function(_)
 		local name = vim.fn.input'Command name: '
 		local xname = vim.fn.input'Command script: '
-		log({ name, xname })
 	end,
 	{}
 )
-
-print(vim.inspect(available_commands))

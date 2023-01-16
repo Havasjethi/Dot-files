@@ -12,7 +12,6 @@ require('havas-config.havas_command_runner.havas_deno')
 
 vim.cmd'set runtimepath^=~/.config/nvim/deno-plugin'
 -- vim.cmd'let g:denops#debug = 1'
-vim.cmd'nmap ö :call denops#server#restart()<cr>'
+vim.cmd"nmap ö :call denops#plugin#reload('havas_denops')<cr>"
 
-vim.cmd'let g:denops#server#restart_threshold = 15'
 -- vim.cmd':ALEDisable'

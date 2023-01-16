@@ -21,10 +21,14 @@ return require('packer').startup(function(use)
 --Plug 'Xuyuanp/nerdtree-git-plugin'
 --Plug 'editorconfig/editorconfig-vim'
 --Plug 'leafgarland/typescript-vim'
+
+--Themes
 	use'wbthomason/packer.nvim'
 	use'vim-denops/denops.vim'
 	use'vim-denops/denops-helloworld.vim'
+
 	use'EdenEast/nightfox.nvim'
+	use'rebelot/kanagawa.nvim'
 
 	use{
 		'nvim-telescope/telescope.nvim',

@@ -33,12 +33,7 @@ local function find_root()
 			max_depth_index = index
 			path = parent_dir(dir_name)
 		end
-
-		print(dir_name)
 	end
-
-	print(path)
-	-- print(vim.inspect(vim.fn.finddir('a', ';')))
 end
 
 function HAVAS_GET_ROOT()

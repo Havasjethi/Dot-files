@@ -28,5 +28,7 @@ fi
 . "$HOME/.cargo/env"
 
 
+export EDITOR="nvim"
+
 # Added by Toolbox App
 export PATH="$PATH:/home/jozsef/.local/share/JetBrains/Toolbox/scripts"
