@@ -19,6 +19,7 @@ Plug 'joshdick/onedark.vim'
 Plug 'amadeus/vim-evokai'
 Plug 'dracula/vim'
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
+Plug 'EdenEast/nightfox.nvim'
 
 " General
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}

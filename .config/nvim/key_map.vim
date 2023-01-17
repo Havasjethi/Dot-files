@@ -45,6 +45,7 @@ nmap <A-Up> yyp
 "	Visual
 vmap <C-x> "+d
 vmap p "_dP
+vmap $ g_
 
 
 " Easier movement between split windows CTRL + {h, j, k, l}

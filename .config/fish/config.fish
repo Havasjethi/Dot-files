@@ -37,8 +37,8 @@ alias tree='exa -T -L 3'
 
 alias dps='docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Ports}}\t{{.Status}}"'
 alias log='vim ~/Documents/logs/(date +%m-%d)'
-alias todo='vim ~/todo'
-alias notes='mkdir -p ~/Documents/notes/(basename (git rev-parse --show-toplevel)); vim ~/Documents/notes/(basename (git rev-parse --show-toplevel))/(git branch --show-current)'
+alias todo='vim ~/todo.md'
+alias notes='mkdir -p ~/Documents/notes/(basename (git rev-parse --show-toplevel)); vim ~/Documents/notes/(basename (git rev-parse --show-toplevel))/(git branch --show-current).md'
 alias allnotes='vim ~/Documents/notes/(basename (git rev-parse --show-toplevel))/'
 alias clip="xsel -b"
 alias ripgrep="rg"
@@ -58,6 +58,9 @@ alias tn_containers_down "docker-compose -f $tn_docker_path down"
 
 alias tn_hard_reset 'tn_containers_down; docker_reset; tn_containers_up'
 alias tn_soft_reset 'tn_containers_down; tn_containers_up'
+
+alias helm_start_hard 'helm delete tn-local-helm; kubectl delete -n default persistentvolumeclaim data-postgres-0; helm install -f local_dev_values.yaml tn-local-helm . | lolcat'
+alias helm_upgrade 'helm upgrade -f local_dev_values.yaml tn-local-helm . | lolcat'
 
 # Git stuff
 # alias 'git pull' 'git pull --no-ff'
