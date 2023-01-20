@@ -87,14 +87,15 @@ noremap é :action ShowErrorDescription<cr>
 " nnoremap <expr> k (v:count > 1 ? "m'" . v:count : '') . 'k'
 " nnoremap <expr> j (v:count > 1 ? "m'" . v:count : '') . 'j'
 
-i<C-d><esc>k<leader>cc
+" i<C-d><esc>k<leader>cc
 
 nmap <leader>sa ggVG
 
-ion RunClass<cr>
+" ion RunClass<cr>
+nmap <leader>rr :action RunClass<rc>
 nmap <leader>rd :action DebugClass<cr>
 
-ion Togglemap í z
+" ion Togglemap í z
 nmap <leader>zz :action ToggleZenMode<cr>
 
 nmap Y y$
@@ -113,3 +114,34 @@ nmap di] f[vi[d
 nmap di{ F{vi{d
 nmap di} f{vi{d
 
+sethandler <C-2> a:vim
+sethandler <C-6> a:ide
+sethandler <C-S-6> a:vim
+sethandler <C-A> a:vim
+sethandler <C-B> a:vim
+sethandler <C-C> a:vim
+sethandler <C-D> a:vim
+sethandler <C-E> a:vim
+sethandler <C-F> a:vim
+sethandler <C-G> a:vim
+sethandler <C-H> a:vim
+sethandler <A-H> a:vim
+sethandler <C-I> a:vim
+sethandler <C-J> a:vim
+sethandler <C-K> a:ide
+sethandler <C-L> a:vim
+sethandler <A-L> a:vim
+sethandler <C-M> a:vim
+sethandler <C-N> a:vim
+sethandler <C-O> a:vim
+sethandler <C-P> a:vim
+sethandler <C-Q> a:vim
+sethandler <C-R> a:vim
+sethandler <C-S> a:vim
+sethandler <C-T> a:vim
+sethandler <C-U> a:vim
+sethandler <C-V> a:vim
+sethandler <C-W> a:vim
+sethandler <A-W> a:vim
+sethandler <C-X> a:vim
+sethandler <C-Y> a:vim
