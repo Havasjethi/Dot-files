@@ -92,7 +92,7 @@ noremap é :action ShowErrorDescription<cr>
 nmap <leader>sa ggVG
 
 " ion RunClass<cr>
-nmap <leader>rr :action RunClass<rc>
+nmap <leader>rr :action RunClass<cr>
 nmap <leader>rd :action DebugClass<cr>
 
 " ion Togglemap í z
@@ -100,11 +100,11 @@ nmap <leader>zz :action ToggleZenMode<cr>
 
 nmap Y y$
 
-nmap ci( f(vi(c
+nmap ci( F(vi(c
 nmap ci) f(vi(c
-nmap ci[ f[vi[c
+nmap ci[ F[vi[c
 nmap ci] f[vi[c
-nmap ci{ f{vi{c
+nmap ci{ F{vi{c
 nmap ci} f{vi{c
 
 nmap di( F(vi(d
