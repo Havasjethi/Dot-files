@@ -154,3 +154,7 @@ tnoremap <Esc> <C-\><C-n>
 nmap <A-h> :tabp<cr>
 nmap <A-l> :tabn<cr>
 
+" vmap " S"
+" vmap ' S'
+" vmap ` S`
+

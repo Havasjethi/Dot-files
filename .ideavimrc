@@ -145,3 +145,7 @@ sethandler <C-W> a:vim
 sethandler <A-W> a:vim
 sethandler <C-X> a:vim
 sethandler <C-Y> a:vim
+
+vmap " S"
+vmap ' S'
+vmap ` S`
