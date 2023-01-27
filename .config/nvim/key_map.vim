@@ -44,7 +44,7 @@ nmap <A-Up> yyp
 
 "	Visual
 vmap <C-x> "+d
-vmap p "_dP
+vnoremap p "_dP
 vmap $ g_
 
 
@@ -154,7 +154,7 @@ tnoremap <Esc> <C-\><C-n>
 nmap <A-h> :tabp<cr>
 nmap <A-l> :tabn<cr>
 
-" vmap " S"
-" vmap ' S'
-" vmap ` S`
+vmap " S"
+vmap ' S'
+vmap ` S`
 

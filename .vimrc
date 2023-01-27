@@ -30,6 +30,9 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-dadbod'
+Plug 'tpope/vim-dispatch'
+
 Plug 'preservim/nerdtree'
 Plug 'airblade/vim-gitgutter'
 
@@ -52,7 +55,7 @@ Plug 'mattn/emmet-vim'
 Plug 'dense-analysis/ale'
 
 " Some syntax support
-Plug 'yaegassy/coc-volar', {'do': 'yarn install --frozen-lockfile'}
+" Plug 'yaegassy/coc-volar', {'do': 'yarn install --frozen-lockfile'}
 Plug 'yaegassy/coc-nginx', {'do': 'yarn install --frozen-lockfile'}
 
 " Surrounding content with '"([{}])"' && Replace <html_tags></html_tags>
@@ -63,7 +66,8 @@ Plug 'yaegassy/coc-nginx', {'do': 'yarn install --frozen-lockfile'}
 call plug#end()
 
 " Set color theme
-autocmd vimenter * ++nested colorscheme catppuccin-macchiato
+" catppuccin-macchiato gruvbox
+autocmd vimenter * ++nested colorscheme carbonfox
 set background=dark
 
 " Some stuff for path
@@ -205,3 +209,5 @@ let g:rainbow_active = 1
 let g:ale_linters_ignore = ['deno']
 " let g:ale_linters ( )
 
+vmap < <gv
+vmap > >gv
