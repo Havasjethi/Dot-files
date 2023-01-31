@@ -38,6 +38,7 @@ alias tree='exa -T -L 3'
 alias dps='docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Ports}}\t{{.Status}}"'
 alias log='vim ~/Documents/logs/(date +%m-%d)'
 alias todo='vim ~/todo.md'
+alias bugs='vim ~/bugs.md'
 alias notes='mkdir -p ~/Documents/notes/(basename (git rev-parse --show-toplevel)); vim ~/Documents/notes/(basename (git rev-parse --show-toplevel))/(git branch --show-current).md'
 alias allnotes='vim ~/Documents/notes/(basename (git rev-parse --show-toplevel))/'
 alias clip="xsel -b"
