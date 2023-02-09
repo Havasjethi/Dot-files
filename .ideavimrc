@@ -149,3 +149,7 @@ sethandler <C-Y> a:vim
 vmap " S"
 vmap ' S'
 vmap ` S`
+
+vmap < <gv
+vmap > >gv
+
