@@ -1,3 +1,4 @@
+" https://github.com/itchyny/lightline.vim
 set nocompatible
 "
 " Nice menu when typing `:find *.py`
@@ -53,6 +54,9 @@ Plug 'mattn/emmet-vim'
 
 " Ale
 Plug 'dense-analysis/ale'
+
+"
+Plug 'dag/vim-fish'
 
 " Some syntax support
 " Plug 'yaegassy/coc-volar', {'do': 'yarn install --frozen-lockfile'}

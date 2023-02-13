@@ -158,3 +158,22 @@ vmap " S"
 vmap ' S'
 vmap ` S`
 
+
+" Ctrl+h to stop searching
+" nnoremap <C-h> :nohlsearch<cr>
+
+" Search results centered please
+nnoremap <silent> n nzz
+nnoremap <silent> N Nzz
+nnoremap <silent> * *zz
+nnoremap <silent> # #zz
+nnoremap <silent> g* g*zz
+
+" Very magic by default
+" nnoremap ? ?\v
+" nnoremap / /\v
+" cnoremap %s/ %sm/
+
+" Left and right can switch buffers
+nnoremap <left> :bp<CR>
+nnoremap <right> :bn<CR>
