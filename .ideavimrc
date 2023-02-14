@@ -82,6 +82,8 @@ noremap <leader>e :action GotoFile<CR>
 noremap <leader>6 :action CommentByLineComment<CR>
 noremap <leader>cc :action CommentByLineComment<CR>
 
+noremap <leader>ba :action ToggleLineBreakpoint<cr>
+
 noremap é :action ShowErrorDescription<cr>
 
 " nnoremap <expr> k (v:count > 1 ? "m'" . v:count : '') . 'k'
