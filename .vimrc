@@ -34,6 +34,8 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-dadbod'
 Plug 'tpope/vim-dispatch'
 
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npm install' }
+
 Plug 'preservim/nerdtree'
 Plug 'airblade/vim-gitgutter'
 

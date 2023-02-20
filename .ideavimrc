@@ -100,6 +100,8 @@ nmap <leader>rd :action DebugClass<cr>
 " ion Togglemap í z
 nmap <leader>zz :action ToggleZenMode<cr>
 
+nmap <leader>0 :action ActivateCommitToolWindow<cr>
+
 nmap Y y$
 
 nmap ci( F(vi(c
