@@ -72,8 +72,8 @@ Plug 'yaegassy/coc-nginx', {'do': 'yarn install --frozen-lockfile'}
 call plug#end()
 
 " Set color theme
-" catppuccin-macchiato gruvbox
-autocmd vimenter * ++nested colorscheme carbonfox
+" catppuccin-macchiato gruvbox, carbonfox
+autocmd vimenter * ++nested colorscheme dayfox
 set background=dark
 
 " Some stuff for path
