@@ -217,3 +217,8 @@ let g:ale_linters_ignore = ['deno']
 
 vmap < <gv
 vmap > >gv
+
+noremap fap zfap
+noremap fip zfip
+
+noremap <A-é> :set nohlsearch<cr>
