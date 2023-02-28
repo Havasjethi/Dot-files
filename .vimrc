@@ -215,6 +215,10 @@ let g:rainbow_active = 1
 let g:ale_linters_ignore = ['deno']
 " let g:ale_linters ( )
 
+
+nmap << <<V
+nmap >> >>V
+
 vmap < <gv
 vmap > >gv
 

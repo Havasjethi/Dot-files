@@ -50,6 +50,7 @@ alias startup="~/bin/script_runner.sh ~/bin/startup"
 alias shutdown="~/bin/script_runner.sh ~/bin/shutdown 'shutdown now'"
 
 alias minikube_start='minikube start --cpus 6 --memory 12000'
+set -g MINIKUBE_IN_STYLE 0
 
 alias docker_reset='echo y | docker system prune --volumes'
 
