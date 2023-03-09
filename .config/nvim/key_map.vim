@@ -157,6 +157,9 @@ nmap <A-l> :tabn<cr>
 vmap " S"
 vmap ' S'
 vmap ` S`
+vmap ( S(
+vmap [ S[
+vmap { S{
 
 
 " Ctrl+h to stop searching
@@ -177,3 +180,5 @@ nnoremap <silent> g* g*zz
 " Left and right can switch buffers
 nnoremap <left> :bp<CR>
 nnoremap <right> :bn<CR>
+
+nmap Ú :G blame<CR>

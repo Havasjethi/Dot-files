@@ -54,7 +54,11 @@
     "shellexpand",
     "typeorm",
     "userinfo",
-    "workdir"
+    "workdir",
+    "Treemap",
+    "frontendart",
+    "chartdiv",
+    "Readex"
   ],
   "typescript.suggest.completeFunctionCalls": true,
   "rust-analyzer.inlayHints.chainingHintsSeparator": " ",
