@@ -1,5 +1,6 @@
 let mapleader = " "
 
+
 " Remove annoying operations
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
@@ -161,7 +162,6 @@ vmap ( S(
 vmap [ S[
 vmap { S{
 
-
 " Ctrl+h to stop searching
 " nnoremap <C-h> :nohlsearch<cr>
 
@@ -182,3 +182,13 @@ nnoremap <left> :bp<CR>
 nnoremap <right> :bn<CR>
 
 nmap Ú :G blame<CR>
+
+nmap <leader>sa ggVG
+nmap << <<V
+nmap >> >>V
+vmap < <gv
+vmap > >gv
+noremap fap zfap
+noremap fip zfip
+noremap <A-é> :set nohlsearch<cr>
+
