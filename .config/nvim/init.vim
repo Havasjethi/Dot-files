@@ -5,6 +5,7 @@ source ~/.vimrc
 :lua require('tree_sitter')
 
 source ~/.config/nvim/plugin.vim
+source ~/.config/nvim/coc_mappings.vim
 source ~/.config/nvim/key_map.vim
 
 augroup highlight_yank
