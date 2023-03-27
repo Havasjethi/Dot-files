@@ -1,19 +1,9 @@
 let mapleader = " "
 
-
-" Remove annoying operations
-inoremap <silent><expr> <TAB>
-      \ pumvisible() ? "\<C-n>" :
-      \ CheckBackspace() ? "\<TAB>" :
-      \ coc#refresh()
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
-
-
 " noremap J <nop>
 " noremap K <nop>
 
-
-" Globlal mode
+" Global mode
 map <C-@> <nul>
 
 "	Insert mode
@@ -68,72 +58,10 @@ noremap <leader>9 9gt
 noremap <leader>0 :tablast<cr>
 nnoremap <leader>x :tabclose<Cr>
 
-if has('nvim')
-  inoremap <silent><expr> <c-space> coc#refresh()
-else
-  inoremap <silent><expr> <c-@> coc#refresh()
-endif
-
-nmap <F2> <Plug>(coc-rename)
-" Remap keys for applying codeAction to the current line.
-nmap <leader>ac  <Plug>(coc-codeaction)
-nmap <silent> ga <Plug>(coc-codeaction)
-
-" Apply AutoFix to problem on the current line.
-nmap <leader>qf  <Plug>(coc-fix-current)
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
-nmap <silent> ge <Plug>(coc-diagnostic-next)
-nmap <silent> gE <Plug>(coc-diagnostic-prev)
-nmap <silent> <leader>G <Plug>(coc-diagnostic-prev)
-nmap <silent> <leader>g <Plug>(coc-diagnostic-next)
-nmap <silent> <leader>aa :call CocAction('runCommand', 'angular.goToComponentWithTemplateFile')<CR>
-nmap <silent> <leader>at :call CocAction('runCommand', 'angular.goToTemplateForComponent')<CR>
-
 " Map function and class text objects
 " NOTE: Requires 'textDocument.documentSymbol' support from the language server.
 " Format
 " nmap <leader>f   :CocCommand prettier.formatFile<CR>
-
-xmap if <Plug>(coc-funcobj-i)
-omap if <Plug>(coc-funcobj-i)
-xmap af <Plug>(coc-funcobj-a)
-omap af <Plug>(coc-funcobj-a)
-xmap ic <Plug>(coc-classobj-i)
-omap ic <Plug>(coc-classobj-i)
-xmap ac <Plug>(coc-classobj-a)
-omap ac <Plug>(coc-classobj-a)
-
-" Use K to show documentation in preview window.
-nnoremap <silent> K :call ShowDocumentation()<CR>
-
-function! ShowDocumentation()
-  if CocAction('hasProvider', 'hover')
-    call CocActionAsync('doHover')
-  else
-    call feedkeys('K', 'in')
-  endif
-endfunction
-
-
-" nnoremap <leader>ff <cmd>Telescope find_files<cr>
-" nnoremap <leader>e <cmd>lua require('telescope.builtin').git_files()<cr>
-noremap <leader>e :Telescope find_files<cr>
-noremap <A-e> :Telescope find_files<cr>
-nnoremap <leader>fe <cmd>Telescope find_files<cr>
-nnoremap <leader>ff <cmd>Telescope live_grep<cr>
-nnoremap <leader>fi <cmd>Telescope live_grep -uu<cr>
-
-nnoremap <leader>fb <cmd>Telescope buffers<cr>
-nnoremap <leader>fh <cmd>Telescope help_tags<cr>
-
-nnoremap <leader>nf :NERDTreeFind<CR>
-nnoremap <leader>nn :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
 
 " 'NERDCommentEmptyLines'
 

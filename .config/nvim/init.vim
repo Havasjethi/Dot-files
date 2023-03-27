@@ -2,11 +2,13 @@ set runtimepath^=~/.vim runtimepath+=~/.vim/after runtimepath+=~/.config/nvim/lu
 let &packpath = &runtimepath
 
 source ~/.vimrc
-:lua require('tree_sitter')
+source ~/.config/nvim/key_map.vim
 
 source ~/.config/nvim/plugin.vim
+
 source ~/.config/nvim/coc_mappings.vim
-source ~/.config/nvim/key_map.vim
+source ~/.config/nvim/telescope.vim
+source ~/.config/nvim/nerdtree.vim
 
 augroup highlight_yank
     autocmd!

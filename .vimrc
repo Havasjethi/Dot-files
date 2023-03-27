@@ -52,9 +52,9 @@ set laststatus=2
 set clipboard+=unnamedplus
 
 " Formatting
-set tabstop=2 shiftwidth=2 softtabstop=2
 set expandtab
-set foldlevelstart=2
+set tabstop=2 shiftwidth=2 softtabstop=2 foldlevelstart=2
+" set tabstop=4 shiftwidth=4 softtabstop=4 foldlevelstart=4
 syntax enable
 
 " New windows will be opened right to the current

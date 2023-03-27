@@ -67,39 +67,13 @@ if isdirectory('./node_modules') && isdirectory('./node_modules/eslint')
 endif
 
 
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 let g:user_emmet_mode='n'
 let g:vim_vue_plugin_load_full_syntax = 1
 let g:user_emmet_install_global = 1
 let g:user_emmet_leader_key = ','
 
-
-let g:NERDCreateDefaultMappings = 0
-let g:NERDCommentEmptyLines = 1
-
 autocmd FileType html,css,vue EmmetInstall
-let g:NERDSpaceDelims = 2
-
-let NERDTreeShowLineNumbers=1
-let g:NERDTreeWinSize=51
-autocmd FileType nerdtree setlocal relativenumber
-let g:NERDTreeWinPos = "right"
-
-let g:NERDTreeGitStatusIndicatorMapCustom = {
-                \ 'Modified'  :'✹',
-                \ 'Staged'    :'✚',
-                \ 'Untracked' :'✭',
-                \ 'Renamed'   :'➜',
-                \ 'Unmerged'  :'═',
-                \ 'Deleted'   :'✖',
-                \ 'Dirty'     :'✗',
-                \ 'Ignored'   :'☒',
-                \ 'Clean'     :'✔︎',
-                \ 'Unknown'   :'?',
-                \ }
-
-let g:NERDCustomDelimiters = { 'unix': { 'left': '#' } }
 
 
 let g:airline#extensions#tabline#formatter = 'unique_tail_improved'

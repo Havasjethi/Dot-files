@@ -1,3 +1,5 @@
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
 " Remove annoying operations
 function! CheckBackspace() abort
   let col = col('.') - 1
@@ -8,6 +10,7 @@ inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
       \ CheckBackspace() ? "\<TAB>" :
       \ coc#refresh()
+
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
@@ -26,7 +29,6 @@ else
   inoremap <silent><expr> <c-@> coc#refresh()
 endif
 
-
 nnoremap <silent> K :call ShowDocumentation()<CR>
 function! ShowDocumentation()
   if CocAction('hasProvider', 'hover')
@@ -37,14 +39,16 @@ function! ShowDocumentation()
 endfunction
 
 
+" Remap keys for applying codeAction to the current line.
 nmap <F2> <Plug>(coc-rename)
 nmap <leader>ac  <Plug>(coc-codeaction)
 nmap <silent> ga <Plug>(coc-codeaction)
-
-
-" Apply AutoFix to problem on the current line.
+" This could be a cursor
+nmap <silent> gl <Plug>(coc-codeaction-line)
 nmap <leader>qf  <Plug>(coc-fix-current)
+
 nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gc <Plug>(coc-declaration)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
@@ -52,6 +56,7 @@ nmap <silent> ge <Plug>(coc-diagnostic-next)
 nmap <silent> gE <Plug>(coc-diagnostic-prev)
 nmap <silent> <leader>G <Plug>(coc-diagnostic-prev)
 nmap <silent> <leader>g <Plug>(coc-diagnostic-next)
+
 nmap <silent> <leader>aa :call CocAction('runCommand', 'angular.goToComponentWithTemplateFile')<CR>
 nmap <silent> <leader>at :call CocAction('runCommand', 'angular.goToTemplateForComponent')<CR>
 
