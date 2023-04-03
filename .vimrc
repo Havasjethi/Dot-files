@@ -87,3 +87,7 @@ augroup END
 " nmap <leader><leader>r :source~/.vimrc<cr>
 
 " nmap <leader>rr :source ~/.vimrc<cr>
+"
+nnoremap <expr> k (v:count > 1 ? "m'" . v:count : '') . 'k'
+nnoremap <expr> j (v:count > 1 ? "m'" . v:count : '') . 'j'
+

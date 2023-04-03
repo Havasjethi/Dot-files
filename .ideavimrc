@@ -1,3 +1,5 @@
+" TODO :: Read global .vimrc
+
 set surround
 set multiple-cursors
 set commentary
@@ -6,6 +8,9 @@ Plug 'machakann/vim-highlightedyank'
 
 let g:highlightedyank_highlight_duration = "200"
 let g:highlightedyank_highlight_color = "rgba(160, 160, 160, 155)"
+
+" source .vimrc
+source ~/.config/nvim/key_map.vim
 
 set number
 set relativenumber
@@ -57,8 +62,8 @@ nnoremap gt :action GotoTest<CR>
 " nnoremap gb :action Back<CR>
 " nnoremap gf :action Forward<CR>
 
-noremap <C-h> :action PreviousTab<CR>
-noremap <C-l> :action NextTab<CR>
+" noremap <C-h> :action PreviousTab<CR>
+" noremap <C-l> :action NextTab<CR>
 noremap <A-h> :action PreviousTab<CR>
 noremap <A-l> :action NextTab<CR>
 noremap <A-w> :action CloseContent<CR>
@@ -73,11 +78,13 @@ nnoremap <leader>u :action FindUsages<CR>
 nnoremap <leader>h :action CallHierarchy<CR>
 noremap <leader>n :NERDTreeFocus<CR>
 noremap <leader>nf :NERDTreeFind<cr>
+noremap <C-f> :NERDTreeFind<cr>
 
 vnoremap <leader>re :action Replace<CR>
 nnoremap <leader>re :action Replace<CR>
 nnoremap <leader>ge :action Generate<CR>
 noremap <leader>e :action GotoFile<CR>
+noremap <A-e> :action GotoFile<CR>
 
 noremap <leader>6 :action CommentByLineComment<CR>
 noremap <leader>cc :action CommentByLineComment<CR>

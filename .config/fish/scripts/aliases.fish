@@ -1,6 +1,8 @@
 alias vim nvim
 alias frc='nvim ~/.config/fish/config.fish'
 alias vrc='nvim ~/.vimrc'
+alias vread='nvim -R'
+alias svim='sudo nvim -u ~/.vimrc'
 alias vkeys='nvim ~/.config/nvim/key_map.vim'
 alias irc='nvim ~/.ideavimrc'
 alias brc="nvim ~/.bashrc"
