@@ -16,6 +16,7 @@
     "vue",
     "markdown"
   ],
+  "cSpell.enabled": false,
   "cSpell.userWords": [
     "AMQP",
     "Decryptor",

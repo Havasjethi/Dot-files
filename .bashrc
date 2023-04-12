@@ -143,3 +143,4 @@ source <(ng completion script)
 
 export EDITOR=nvim
 
+export MINIKUBE_IN_STYLE=false
