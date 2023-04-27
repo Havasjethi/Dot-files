@@ -14,7 +14,9 @@
     "scss",
     "html",
     "vue",
-    "markdown"
+    "markdown",
+    "jsx",
+    "javascriptreact"
   ],
   "cSpell.enabled": false,
   "cSpell.userWords": [

@@ -118,6 +118,13 @@ nmap ci] f[vi[c
 nmap ci{ F{vi{c
 nmap ci} f{vi{c
 
+" nmap yi( F(yi(
+" nmap yi) f(yi(
+" nmap yi[ F[yi[
+" nmap yi] f[yi[
+" nmap yi{ F{yi{
+" nmap yi} f{yi{
+
 nmap di( F(vi(d
 nmap di) f(vi(d
 nmap di[ F[vi[d
