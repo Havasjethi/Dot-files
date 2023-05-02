@@ -18,7 +18,7 @@
     "jsx",
     "javascriptreact"
   ],
-  "cSpell.enabled": false,
+  "cSpell.enabled": true,
   "cSpell.userWords": [
     "AMQP",
     "Decryptor",
