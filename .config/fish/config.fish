@@ -1,5 +1,5 @@
-set JAVA_HOME /opt/jdk/ set GRADLE_HOME /opt/gradle-7.4.2
-alias docker_kill_inactive 'docker ps -a -q -f status=exited | xargs docker rm'
+set JAVA_HOME /opt/jdk/
+set GRADLE_HOME /opt/gradle-7.4.2
 set EDITOR nvim
 
 # set spring_profiles_active dev
@@ -7,8 +7,10 @@ set EDITOR nvim
 # set NODE_OPTIONS "--openssl-legacy-provider"
 # export NODE_OPTIONS=--openssl-legacy-provider
 
-for x in (/bin/ls ~/.config/fish/scripts )
-  source ~/.config/fish/scripts/$x
+set config_folder ~/.config/fish/scripts
+
+for conf_file in (/bin/ls $config_folder  )
+  source "$config_folder/$conf_file"
 end
 
 abbr docker_kill_inactive 'docker ps -a -q -f status=exited | xargs docker rm'

@@ -138,9 +138,8 @@ export PATH=/opt/node/node_bin:$PATH
 
 
 # Load Angular CLI autocompletion.
-source <(ng completion script)
-. "$HOME/.cargo/env"
+# source <(ng completion script)
+# . "$HOME/.cargo/env"
 
 export EDITOR=nvim
-
 export MINIKUBE_IN_STYLE=false
