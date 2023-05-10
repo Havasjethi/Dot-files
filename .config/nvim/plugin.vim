@@ -77,10 +77,10 @@ let g:user_emmet_leader_key = ','
 autocmd FileType html,css,vue EmmetInstall
 
 
-" let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
-" let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
+let g:airline#extensions#tabline#left_alt_sep = '|'
 " let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#enabled = 0
+" let g:airline#extensions#tabline#enabled = 0
 
 let g:rainbow_active = 1
 
@@ -88,49 +88,3 @@ let g:rainbow_active = 1
 let g:ale_linters_ignore = ['deno']
 " let g:ale_linters ( )
 
-
-
-" TODO :: Remove this  :::
-
-nnoremap <C-f> :NERDTreeFind<CR>
-
-noremap <leader>e :Telescope find_files<cr>
-noremap <A-e> :Telescope find_files<cr>
-nnoremap <leader>fe <cmd>Telescope find_files<cr>
-nnoremap <leader>ff <cmd>Telescope live_grep<cr>
-nnoremap <leader>fi <cmd>Telescope live_grep -uu<cr>
-
-nnoremap <leader>fb <cmd>Telescope buffers<cr>
-nnoremap <leader>fh <cmd>Telescope help_tags<cr>
-
-nnoremap <leader>nf :NERDTreeFind<CR>
-nnoremap <leader>nn :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
-
-let g:NERDCreateDefaultMappings = 0
-let g:NERDCommentEmptyLines = 1
-
-autocmd FileType html,css,vue EmmetInstall
-let g:NERDSpaceDelims = 2
-
-let NERDTreeShowLineNumbers=1
-let g:NERDTreeWinSize=51
-autocmd FileType nerdtree setlocal relativenumber
-let g:NERDTreeWinPos = "right"
-
-let g:NERDTreeGitStatusIndicatorMapCustom = {
-                \ 'Modified'  :'✹',
-                \ 'Staged'    :'✚',
-                \ 'Untracked' :'✭',
-                \ 'Renamed'   :'➜',
-                \ 'Unmerged'  :'═',
-                \ 'Deleted'   :'✖',
-                \ 'Dirty'     :'✗',
-                \ 'Ignored'   :'☒',
-                \ 'Clean'     :'✔︎',
-                \ 'Unknown'   :'?',
-                \ }
-
-let g:NERDCustomDelimiters = { 'unix': { 'left': '#' } }
