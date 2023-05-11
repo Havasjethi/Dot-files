@@ -7,6 +7,7 @@ Plug 'amadeus/vim-evokai'
 Plug 'dracula/vim'
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 Plug 'EdenEast/nightfox.nvim'
+Plug 'rose-pine/neovim'
 
 " General
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
@@ -79,9 +80,11 @@ autocmd FileType html,css,vue EmmetInstall
 let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 let g:airline#extensions#tabline#left_alt_sep = '|'
 " let g:airline#extensions#tabline#enabled = 1
+" let g:airline#extensions#tabline#enabled = 0
 
 let g:rainbow_active = 1
 
 " let g:ale_linters = ['cspell', 'eslint', 'standard', 'tslint', 'tsserver', 'typecheck', 'xo']
 let g:ale_linters_ignore = ['deno']
 " let g:ale_linters ( )
+

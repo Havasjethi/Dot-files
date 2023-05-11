@@ -39,6 +39,7 @@
     "Valami",
     "Vsync",
     "amcharts",
+    "bindgen",
     "bitnami",
     "chartdiv",
     "codetree",
@@ -66,6 +67,7 @@
     "userinfo",
     "workdir"
   ],
+  "rust-analyzer.inlayHints.chainingHintsSeparator": " ",
   "typescript.suggest.completeFunctionCalls": true,
   "sql.database": "postgresql",
   "prettier.printWidth": 100,
