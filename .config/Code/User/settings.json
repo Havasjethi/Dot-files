@@ -4,7 +4,7 @@
   "editor.tabSize": 2,
   "editor.renderWhitespace": "none",
   "breadcrumbs.enabled": true,
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "editor.renderControlCharacters": false,
   "[markdown]": {
     "editor.wordWrap": "off",
@@ -60,5 +60,6 @@
     "editor.defaultFormatter": "James-Yu.latex-workshop"
   },
   "editor.wordWrap": "on",
-  "rust-analyzer.inlayHints.closureReturnTypeHints.enable": true
+  "rust-analyzer.inlayHints.closureReturnTypeHints.enable": true,
+  "gitlens.views.stashes.files.layout": "tree"
 }

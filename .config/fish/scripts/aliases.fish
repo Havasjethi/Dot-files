@@ -20,7 +20,12 @@ alias tree='exa -T -L 3'
 alias log='vim ~/Documents/logs/(date +%m-%d)'
 alias todo='vim ~/todo.md'
 alias bugs='vim ~/bugs.md'
-alias notes='mkdir -p ~/Documents/notes/(basename (git rev-parse --show-toplevel)); vim ~/Documents/notes/(basename (git rev-parse --show-toplevel))/(git branch --show-current).md'
+
+function notes;
+  mkdir -p ~/Documents/notes/(basename (git rev-parse --show-toplevel))
+  vim ~/Documents/notes/(basename (git rev-parse --show-toplevel))/(git branch --show-current).md
+end
+
 alias allnotes='vim ~/Documents/notes/(basename (git rev-parse --show-toplevel))/'
 
 alias clip="xsel -b"
@@ -37,6 +42,5 @@ abbr gip 'git pull --no-ff'
 abbr gis 'git status'
 
 alias startup="~/bin/script_runner.sh ~/bin/startup"
-# alias shutdown="~/bin/script_runner.sh ~/bin/shutdown; shutdown now"
 alias shutdown="shutdown now"
 
