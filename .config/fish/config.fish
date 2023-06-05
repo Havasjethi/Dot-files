@@ -1,4 +1,5 @@
-set JAVA_HOME /opt/jdk/
+# set JAVA_HOME /opt/jdk/
+set JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64/jre/bin
 set GRADLE_HOME /opt/gradle-7.4.2
 set EDITOR nvim
 

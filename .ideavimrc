@@ -1,5 +1,6 @@
 " TODO :: Read global .vimrc
 
+set visualbell
 set surround
 set multiple-cursors
 set commentary

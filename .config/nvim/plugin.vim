@@ -35,7 +35,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 
 " Useless Fancy
-Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline'
 Plug 'luochen1990/rainbow'
 
 " This Web
@@ -77,8 +77,8 @@ let g:user_emmet_leader_key = ','
 autocmd FileType html,css,vue EmmetInstall
 
 
-let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
-let g:airline#extensions#tabline#left_alt_sep = '|'
+" let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
+" let g:airline#extensions#tabline#left_alt_sep = '|'
 " let g:airline#extensions#tabline#enabled = 1
 " let g:airline#extensions#tabline#enabled = 0
 

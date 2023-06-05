@@ -22,8 +22,9 @@ alias todo='vim ~/todo.md'
 alias bugs='vim ~/bugs.md'
 
 function notes;
-  mkdir -p ~/Documents/notes/(basename (git rev-parse --show-toplevel))
-  vim ~/Documents/notes/(basename (git rev-parse --show-toplevel))/(git branch --show-current).md
+  set file ~/Documents/notes/(basename (git rev-parse --show-toplevel))/(git branch --show-current).md
+  mkdir -p (dirname $file)
+  vim $file
 end
 
 alias allnotes='vim ~/Documents/notes/(basename (git rev-parse --show-toplevel))/'
