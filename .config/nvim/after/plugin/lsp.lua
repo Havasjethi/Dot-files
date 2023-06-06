@@ -1,0 +1,99 @@
+-- local lsp = require('lsp-zero')
+--
+-- lsp.preset({
+	-- name = 'minimal',
+	-- set_lsp_keymaps = true,
+	-- manage_nvim_cmp = true,
+	-- suggest_lsp_servers = false,
+-- })
+--
+    -- -- vim.lsp.start({
+      -- -- name = 'my-server-name',
+      -- -- cmd = {'name-of-language-server-executable'},
+      -- -- root_dir = vim.fs.dirname(vim.fs.find({'setup.py', 'pyproject.toml'}, { upward = true })[1]),
+    -- -- })
+--
+-- -- (Optional) Configure lua language server for neovim
+-- lsp.nvim_workspace()
+--
+-- lsp.ensure_installed({
+  -- 'tsserver', 'eslint', 'rust_analyzer', 'lua_ls'
+-- })
+-- local opts = { noremap=true, siient=true }
+--
+--
+-- local on_attach = function(client, bufnr)
+  -- -- Enable completion triggered by <c-x><c-o>
+  -- vim.api.nvim_buf_set_option(bufnr, 'omnifunc', 'v:lua.vim.lsp.omnifunc')
+--
+  -- -- Mappings.
+  -- -- See `:help vim.lsp.*` for documentation on any of the below functions
+  -- local bufopts = { noremap=true, silent=true, buffer=bufnr }
+  -- vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, bufopts)
+  -- vim.keymap.set('n', 'gd', vim.lsp.buf.definition, bufopts)
+--
+  -- vim.keymap.set('n', 'ge', vim.diagnostic.goto_next, bufopts)
+  -- vim.keymap.set('n', 'gE', vim.diagnostic.goto_prev, bufopts)
+  -- -- vim.keymap.set('n', 'ge', vim.lsp.buf.definition, bufopts)
+--
+  -- vim.keymap.set('n', 'K', vim.lsp.buf.hover, bufopts)
+  -- vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, bufopts)
+  -- vim.keymap.set('n', '<C-k>', vim.lsp.buf.signature_help, bufopts)
+  -- vim.keymap.set('i', '<C-h>', vim.lsp.buf.signature_help, bufopts)
+  -- vim.keymap.set('n', '<space>wa', vim.lsp.buf.add_workspace_folder, bufopts)
+  -- vim.keymap.set('n', '<space>wr', vim.lsp.buf.remove_workspace_folder, bufopts)
+  -- vim.keymap.set('n', '<space>wl', function()
+    -- print(vim.inspect(vim.lsp.buf.list_workspace_folders()))
+  -- end, bufopts)
+  -- vim.keymap.set('n', '<space>D', vim.lsp.buf.type_definition, bufopts)
+  -- -- vim.keymap.set('n', '<space>rn', vim.lsp.buf.rename, bufopts)
+  -- vim.keymap.set('n', '<F2>', vim.lsp.buf.rename, bufopts)
+  -- vim.keymap.set('n', '<space>ca', vim.lsp.buf.code_action, bufopts)
+  -- vim.keymap.set('n', 'ga', vim.lsp.buf.code_action, bufopts)
+  -- vim.keymap.set('n', 'gr', vim.lsp.buf.references, bufopts)
+   -- vim.keymap.set('n', '<space>f', function() vim.lsp.buf.format { async = true } end, bufopts)
+   -- vim.api.nvim_create_autocmd({"BufWritePre"}, {pattern = "*", callback = function (event)
+     -- vim.lsp.buf.format {async = true}
+   -- end
+   -- })
+--
+--
+--
+--
+-- end
+-- local lsp_flags = {
+  -- -- This is the default in Nvim 0.7+
+  -- debounce_text_changes = 150,
+-- }
+--
+-- lsp.setup()
+-- require('lspconfig')['tsserver'].setup{
+    -- on_attach = on_attach,
+    -- flags = lsp_flags,
+-- }
+-- require('lspconfig')['rust_analyzer'].setup{
+    -- on_attach = on_attach,
+    -- flags = lsp_flags,
+    -- -- Server-specific settings...
+    -- settings = {
+      -- ["rust-analyzer"] = {}
+    -- }
+-- }
+-- require'lspconfig'.lua_ls.setup {
+  -- settings = {
+    -- Lua = {
+      -- runtime = {
+        -- version = 'LuaJIT',
+      -- },
+      -- diagnostics = {
+        -- globals = {'vim'},
+      -- },
+      -- workspace = {
+        -- library = vim.api.nvim_get_runtime_file("", true),
+      -- },
+      -- telemetry = {
+        -- enable = false,
+      -- },
+    -- },
+  -- },
+-- }
