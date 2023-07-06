@@ -1,3 +1,5 @@
+# ./scripts/work.fish
+
 set JAVA_HOME /opt/jdk/
 set GRADLE_HOME /opt/gradle-7.4.2
 set EDITOR nvim
