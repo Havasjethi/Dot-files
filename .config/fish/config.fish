@@ -1,3 +1,5 @@
+# ./scripts/aliases.fish
+# ./scripts/private_stuff.fish
 # ./scripts/work.fish
 
 set JAVA_HOME /opt/jdk/
