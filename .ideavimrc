@@ -173,3 +173,7 @@ vmap > >gv
 
 nnoremap <expr> k (v:count > 1 ? "m'" . v:count : '') . 'k'
 nnoremap <expr> j (v:count > 1 ? "m'" . v:count : '') . 'j'
+
+nmap ö :action StepInto<cr>
+nmap ü :action StepOver<cr>
+nmap ó :action ResumeProgram<cr>
