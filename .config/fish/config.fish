@@ -1,6 +1,7 @@
-# ./scripts/aliases.fish
-# ./scripts/private_stuff.fish
 # ./scripts/work.fish
+# ./scripts/aliases.fish
+# ./scripts/path.fish
+# ./scripts/private_stuff.fish
 
 set JAVA_HOME /opt/jdk/
 set GRADLE_HOME /opt/gradle-7.4.2
