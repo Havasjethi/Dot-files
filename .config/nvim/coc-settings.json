@@ -1,5 +1,5 @@
 {
-  "cSpell.enabled": true,
+  "cSpell.enabled": false,
   "suggest.noselect": false,
   "prettier.enable": true,
   "java.jdt.ls.vmargs": "-javaagent:/opt/lombok/lombok.jar -Xbootclasspath/a:/opt/lombok/lombok.jar",
