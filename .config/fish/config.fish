@@ -14,7 +14,7 @@ set EDITOR nvim
 
 set config_folder ~/.config/fish/scripts
 
-for conf_file in (/bin/ls $config_folder  )
+for conf_file in (/bin/ls $config_folder)
   source "$config_folder/$conf_file"
 end
 
